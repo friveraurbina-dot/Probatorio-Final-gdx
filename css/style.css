@@ -61,6 +61,52 @@ body {
 
 main { max-width: 1200px; margin: 0 auto; padding: 20px; }
 
+.tabs {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 18px;
+}
+
+.tab-btn {
+  border: none;
+  background: transparent;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  white-space: nowrap;
+}
+
+.tab-btn:hover { color: var(--text); }
+.tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.summary-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: border-color 0.12s ease;
+}
+.summary-card:hover { border-color: var(--accent); }
+.summary-card h3 { margin: 0 0 10px; font-size: 14px; color: var(--text); }
+.summary-nums { display: flex; gap: 16px; }
+.summary-nums div { font-size: 12px; color: var(--text-muted); }
+.summary-nums b { color: var(--text); font-size: 17px; display: block; }
+
 .filters {
   display: flex;
   gap: 10px;
@@ -211,6 +257,8 @@ main { max-width: 1200px; margin: 0 auto; padding: 20px; }
 }
 
 .no-photos-note { font-size: 13px; color: var(--text-muted); font-style: italic; }
+
+.btn-show-all { margin-top: 12px; }
 
 .lightbox {
   position: fixed; inset: 0; background: rgba(10,10,12,0.92);
