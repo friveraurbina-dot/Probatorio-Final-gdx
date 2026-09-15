@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Probatorio Final GDX</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark">GDX</span>
+      <div class="brand-text">
+        <h1>Probatorio Final GDX</h1>
+        <p>Respaldo fotográfico de reportes de terreno</p>
+      </div>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<main>
+  <section class="filters">
+    <input type="search" id="searchInput" placeholder="Buscar por PO, OM, Aviso, texto, número de teléfono...">
+    <select id="groupFilter">
+      <option value="">Todos los grupos</option>
+    </select>
+    <select id="photoFilter">
+      <option value="">Con o sin fotos</option>
+      <option value="with">Solo con fotos</option>
+      <option value="without">Solo sin fotos</option>
+    </select>
+  </section>
+
+  <section id="resultsInfo" class="results-info"></section>
+
+  <section id="grid" class="grid"></section>
+
+  <p id="emptyState" class="empty-state" hidden>No se encontraron actividades con esos filtros.</p>
+</main>
+
+<div id="modalOverlay" class="modal-overlay" hidden>
+  <div class="modal">
+    <button class="modal-close" id="modalClose" aria-label="Cerrar">&times;</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<div id="lightbox" class="lightbox" hidden>
+  <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">&times;</button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Anterior">&#10094;</button>
+  <img id="lightboxImg" src="" alt="">
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Siguiente">&#10095;</button>
+</div>
+
+<footer>
+  <p>Probatorio Final GDX &mdash; generado automáticamente a partir de reportes de WhatsApp.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
