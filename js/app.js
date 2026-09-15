@@ -1,12 +1,15 @@
 (function () {
   "use strict";
 
+  const MAX_PHOTOS_PREVIEW = 5;
+
   const state = {
     all: [],
     filtered: [],
     currentActivity: null,
     lightboxPhotos: [],
     lightboxIndex: 0,
+    activeTab: "", // "" = Resumen (todos los grupos)
   };
 
   const el = {
@@ -15,7 +18,8 @@
     resultsInfo: document.getElementById("resultsInfo"),
     stats: document.getElementById("stats"),
     searchInput: document.getElementById("searchInput"),
-    groupFilter: document.getElementById("groupFilter"),
+    tabs: document.getElementById("tabs"),
+    summaryGrid: document.getElementById("summaryGrid"),
     photoFilter: document.getElementById("photoFilter"),
     modalOverlay: document.getElementById("modalOverlay"),
     modalBody: document.getElementById("modalBody"),
@@ -45,18 +49,56 @@
     const data = await res.json();
     state.all = data;
     state.filtered = data;
-    populateGroupFilter(data);
+    renderTabs(data);
+    renderSummaryCards(data);
     renderStats(data);
     render();
   }
 
-  function populateGroupFilter(data) {
+  function renderTabs(data) {
     const groups = Array.from(new Set(data.map((a) => a.group))).sort();
-    groups.forEach((g) => {
-      const opt = document.createElement("option");
-      opt.value = g;
-      opt.textContent = g;
-      el.groupFilter.appendChild(opt);
+    const tabDefs = [{ value: "", label: "Resumen" }].concat(
+      groups.map((g) => ({ value: g, label: g }))
+    );
+    el.tabs.innerHTML = "";
+    tabDefs.forEach(({ value, label }) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "tab-btn" + (value === state.activeTab ? " active" : "");
+      btn.dataset.value = value;
+      btn.textContent = label;
+      btn.addEventListener("click", () => selectTab(value));
+      el.tabs.appendChild(btn);
+    });
+  }
+
+  function selectTab(value) {
+    state.activeTab = value;
+    el.tabs.querySelectorAll(".tab-btn").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.value === value);
+    });
+    applyFilters();
+  }
+
+  function renderSummaryCards(data) {
+    const groups = Array.from(new Set(data.map((a) => a.group))).sort();
+    el.summaryGrid.innerHTML = groups
+      .map((g) => {
+        const items = data.filter((a) => a.group === g);
+        const photos = items.reduce((sum, a) => sum + a.photos.length, 0);
+        return `
+          <div class="summary-card" data-group="${g}">
+            <h3>${g}</h3>
+            <div class="summary-nums">
+              <div><b>${items.length}</b>actividades</div>
+              <div><b>${photos}</b>fotos</div>
+            </div>
+          </div>
+        `;
+      })
+      .join("");
+    el.summaryGrid.querySelectorAll(".summary-card").forEach((card) => {
+      card.addEventListener("click", () => selectTab(card.dataset.group));
     });
   }
 
@@ -72,7 +114,7 @@
 
   function applyFilters() {
     const q = el.searchInput.value.trim().toLowerCase();
-    const group = el.groupFilter.value;
+    const group = state.activeTab;
     const photoMode = el.photoFilter.value;
 
     state.filtered = state.all.filter((a) => {
@@ -97,6 +139,7 @@
   }
 
   function render() {
+    el.summaryGrid.hidden = state.activeTab !== "";
     el.grid.innerHTML = "";
     el.emptyState.hidden = state.filtered.length > 0;
     el.resultsInfo.textContent = `${state.filtered.length} actividad(es) encontradas`;
@@ -138,14 +181,17 @@
       .map((s) => `<span class="badge">${s}</span>`)
       .join("");
 
+    const shownPhotos = a.photos.slice(0, MAX_PHOTOS_PREVIEW);
+    const remaining = a.photos.length - shownPhotos.length;
+
+    function photoImgTag(p, i) {
+      return `<img src="${encodeURI(p.thumb)}" data-full="${encodeURI(p.img)}" data-index="${i}">`;
+    }
+
     const photosHtml =
       a.photos.length > 0
-        ? `<div class="photo-grid">${a.photos
-            .map(
-              (p, i) =>
-                `<img src="${encodeURI(p.thumb)}" data-full="${encodeURI(p.img)}" data-index="${i}">`
-            )
-            .join("")}</div>`
+        ? `<div class="photo-grid" id="photoGrid">${shownPhotos.map(photoImgTag).join("")}</div>
+           ${remaining > 0 ? `<button class="btn btn-secondary btn-show-all" id="btnShowAllPhotos">Mostrar las ${a.photos.length} fotos</button>` : ""}`
         : `<p class="no-photos-note">No se encontraron fotos descargadas para esta actividad (puede que aún no se hayan descargado o falten por sincronizar).</p>`;
 
     el.modalBody.innerHTML = `
@@ -162,9 +208,22 @@
       ${photosHtml}
     `;
 
-    el.modalBody.querySelectorAll(".photo-grid img").forEach((img) => {
-      img.addEventListener("click", () => openLightbox(a.photos, parseInt(img.dataset.index, 10)));
-    });
+    function bindPhotoClicks() {
+      el.modalBody.querySelectorAll(".photo-grid img").forEach((img) => {
+        img.addEventListener("click", () => openLightbox(a.photos, parseInt(img.dataset.index, 10)));
+      });
+    }
+    bindPhotoClicks();
+
+    const btnShowAll = document.getElementById("btnShowAllPhotos");
+    if (btnShowAll) {
+      btnShowAll.addEventListener("click", () => {
+        document.getElementById("photoGrid").innerHTML = a.photos.map(photoImgTag).join("");
+        btnShowAll.remove();
+        bindPhotoClicks();
+      });
+    }
+
     document.getElementById("btnFicha").addEventListener("click", () => generateFicha(a));
     const btnZip = document.getElementById("btnZip");
     if (btnZip) btnZip.addEventListener("click", () => generateZip(a));
@@ -354,7 +413,6 @@
 
   // events
   el.searchInput.addEventListener("input", applyFilters);
-  el.groupFilter.addEventListener("change", applyFilters);
   el.photoFilter.addEventListener("change", applyFilters);
   el.modalClose.addEventListener("click", closeDetail);
   el.modalOverlay.addEventListener("click", (e) => {
