@@ -21,17 +21,18 @@
 </header>
 
 <main>
+  <nav id="tabs" class="tabs"></nav>
+
   <section class="filters">
     <input type="search" id="searchInput" placeholder="Buscar por PO, OM, Aviso, texto, número de teléfono...">
-    <select id="groupFilter">
-      <option value="">Todos los grupos</option>
-    </select>
     <select id="photoFilter">
       <option value="">Con o sin fotos</option>
       <option value="with">Solo con fotos</option>
       <option value="without">Solo sin fotos</option>
     </select>
   </section>
+
+  <section id="summaryGrid" class="summary-grid" hidden></section>
 
   <section id="resultsInfo" class="results-info"></section>
 
