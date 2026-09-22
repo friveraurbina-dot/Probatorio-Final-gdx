@@ -44,9 +44,31 @@
     return out;
   }
 
+  // Parsea fechas tipo "D/M/YYYY H:MM a. m./p. m." o "D/M/YYYY H:MM (approx)"
+  // a un timestamp numérico para poder ordenar. Devuelve 0 si no se puede leer.
+  function parseStartDate(raw) {
+    if (!raw) return 0;
+    const m = raw.match(
+      /^(\d{1,2})\/(\d{1,2})\/(\d{4})(?:\s+(\d{1,2}):(\d{2})\s*(a\.?\s*m\.?|p\.?\s*m\.?|am|pm)?)?/i
+    );
+    if (!m) return 0;
+    const day = parseInt(m[1], 10);
+    const month = parseInt(m[2], 10) - 1;
+    const year = parseInt(m[3], 10);
+    let hour = m[4] ? parseInt(m[4], 10) : 0;
+    const minute = m[5] ? parseInt(m[5], 10) : 0;
+    const ampm = m[6] ? m[6].toLowerCase().replace(/[\s.]/g, "") : "";
+    if (ampm === "pm" && hour < 12) hour += 12;
+    if (ampm === "am" && hour === 12) hour = 0;
+    const ts = new Date(year, month, day, hour, minute).getTime();
+    return isNaN(ts) ? 0 : ts;
+  }
+
   async function loadData() {
     const res = await fetch("data/activities.json");
     const data = await res.json();
+    // Más nueva primero (antes venían de la más antigua a la más nueva).
+    data.sort((a, b) => parseStartDate(b.start) - parseStartDate(a.start));
     state.all = data;
     state.filtered = data;
     renderTabs(data);
