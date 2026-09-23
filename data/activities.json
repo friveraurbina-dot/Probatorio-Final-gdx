@@ -23759,8 +23759,8 @@
     "id": "VALPO-PO-1703045-1",
     "group": "Reporte Valparaiso Dx",
     "sender": "+56 9 7539 2187",
-    "start": "23/9/2026 14:47 (approx)",
-    "end": "23/9/2026 14:47 (approx)",
+    "start": "22/9/2026 14:47 (approx)",
+    "end": "22/9/2026 14:47 (approx)",
     "primary_id": "PO: 1703045",
     "ids": {
       "po": [
@@ -23769,17 +23769,51 @@
     },
     "text": "Carlos / VLWW-61\nReporte Sin Interrupción SAT\n\nPo: 1703045-1\nEquipo o sed: 11592 los apóstoles lote 6B\nRotulo: B11386\nProbatorias FS: no\nCausa: camara con agua\nDetalle: cliente nis 938130 Luis sancho los apóstoles 307 Indica servicio intermitente se verifica camara B11386 con agua se debe sacar agua y verificar emplame se adjuntan fotografias MCS y AGU\nEstimados, quedo normalizado el problema de servicio intermitente, SIN RETIRO DE AGUA (no era necesario, se trabajo desde afuera y desde adentro con apoyo de suple de madera) se ejecutó reemplazo de porta-fusible completo sulfatado para el cliente NIS 938130, además se ejecutó mantenimiento a puertos de gelport y porta fusibles al interior de la cámara, verificado servicio normal con clientes.",
     "n_photos_total": 11,
-    "n_photos_matched": 2,
+    "n_photos_matched": 11,
     "photos": [
       {
-        "dt_raw": "23/9/2026 14:47 (approx)",
         "img": "images/VALPO-PO-1703045-1__01.jpg",
         "thumb": "images/VALPO-PO-1703045-1__thumb_01.jpg"
       },
       {
-        "dt_raw": "23/9/2026 14:47 (approx)",
         "img": "images/VALPO-PO-1703045-1__02.jpg",
         "thumb": "images/VALPO-PO-1703045-1__thumb_02.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703045-1__03.jpg",
+        "thumb": "images/VALPO-PO-1703045-1__thumb_03.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703045-1__04.jpg",
+        "thumb": "images/VALPO-PO-1703045-1__thumb_04.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703045-1__05.jpg",
+        "thumb": "images/VALPO-PO-1703045-1__thumb_05.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703045-1__06.jpg",
+        "thumb": "images/VALPO-PO-1703045-1__thumb_06.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703045-1__07.jpg",
+        "thumb": "images/VALPO-PO-1703045-1__thumb_07.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703045-1__08.jpg",
+        "thumb": "images/VALPO-PO-1703045-1__thumb_08.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703045-1__09.jpg",
+        "thumb": "images/VALPO-PO-1703045-1__thumb_09.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703045-1__10.jpg",
+        "thumb": "images/VALPO-PO-1703045-1__thumb_10.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703045-1__11.jpg",
+        "thumb": "images/VALPO-PO-1703045-1__thumb_11.jpg"
       }
     ],
     "validation": {
@@ -23791,8 +23825,8 @@
     "id": "VALPO-PO-1703359-1",
     "group": "Reporte Valparaiso Dx",
     "sender": "+56 9 3262 1705",
-    "start": "23/9/2026 15:51 (approx)",
-    "end": "23/9/2026 15:51 (approx)",
+    "start": "22/9/2026 15:51 (approx)",
+    "end": "22/9/2026 15:51 (approx)",
     "primary_id": "PO: 1703359",
     "ids": {
       "po": [
@@ -24626,6 +24660,159 @@
     "validation": {
       "estado": "sin_fotos",
       "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "VALPO-PO-1703100-1",
+    "group": "Reporte Valparaiso Dx",
+    "sender": "+56 9 3262 1703",
+    "start": "22/9/2026 00:59 (approx)",
+    "end": "22/9/2026 00:59 (approx)",
+    "primary_id": "PO: 1703100",
+    "ids": {
+      "po": [
+        "1703100"
+      ]
+    },
+    "text": "VLWW-61\nReporte Interrupción SAT\n\nPo: 1703100-1\nEquipo o sed: 10809 Blanco pasaje Ross\nRotulo: M0251\nProbatorias FS: Si\nCausa: Neutro de distribución cortado\nDetalle: se verifica Neutro de distribución cortado en salida de transformador sed 10809 blanco pasaje ross. a las 00:59 se abre lado 2 sed blanco pasaje ross se lleva a pocicion de descanso se instala hexágono y se prueba sin tensión en forma capacitiva. Se acercan clientes con artefactos quemados. se adjuntan fotografías\n\nMCS-AGU",
+    "n_photos_total": 18,
+    "photos": [
+      {
+        "img": "images/VALPO-PO-1703100-1__01.jpg",
+        "thumb": "images/VALPO-PO-1703100-1__thumb_01.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703100-1__02.jpg",
+        "thumb": "images/VALPO-PO-1703100-1__thumb_02.jpg"
+      }
+    ],
+    "n_photos_matched": 2,
+    "validation": {
+      "estado": "ok",
+      "motivo": "Foto muestra cámara subterránea con múltiples terminales/empalmes eléctricos y cables, consistente con salida de transformador y neutro cortado."
+    }
+  },
+  {
+    "id": "VALPO-PO-1703309",
+    "group": "Reporte Valparaiso Dx",
+    "sender": "+56 9 4195 9256",
+    "start": "22/9/2026 14:04 (approx)",
+    "end": "22/9/2026 14:04 (approx)",
+    "primary_id": "PO: 1703309",
+    "ids": {
+      "po": [
+        "1703309"
+      ]
+    },
+    "text": "VZRB-32 VINISE\nReporte Interrupción SAT\n\nPo:1703309\nEquipo o sed:\narranque El vergel Alto rótulo 13167123 sin fases operadas en mt\napertura 13:10 por emergencia\nProbatorias FS: Si\nCausa: línea cortada por retiro de volantines\nEn la red mt\nempresa trabajando en lugar TECNORED\nrotulo.113580\nDetalle:\nen camino atender la po.1703072\nSe encuentra línea cortada en mt.\nse procede abir por emergencia el arranque\nmaterial\n50 metros de conductor 16 milímetros\n2 uniones para 16 milímetros\n\njean silva / Cristian alvarado",
+    "n_photos_total": 6,
+    "photos": [
+      {
+        "img": "images/VALPO-PO-1703309__01.jpg",
+        "thumb": "images/VALPO-PO-1703309__thumb_01.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703309__02.jpg",
+        "thumb": "images/VALPO-PO-1703309__thumb_02.jpg"
+      }
+    ],
+    "n_photos_matched": 2,
+    "validation": {
+      "estado": "revisar",
+      "motivo": "Foto muestra solo una baranda peatonal con un alambre delgado colgando; no se aprecia claramente el arranque MT ni la línea cortada descrita."
+    }
+  },
+  {
+    "id": "VALPO-PO-1703226-1",
+    "group": "Reporte Valparaiso Dx",
+    "sender": "+56 9 3262 1705",
+    "start": "22/9/2026 10:48 (approx)",
+    "end": "22/9/2026 10:48 (approx)",
+    "primary_id": "PO: 1703226",
+    "ids": {
+      "po": [
+        "1703226"
+      ]
+    },
+    "text": "Fono 5 Valparaiso\nReporte Interrupción SAT\n\nPo: 1703226-1\nEquipo o sed: 10108 Mariposa\nRotulo: 783196\nProbatorias FS: Si\nCausa: Evento de alta temperatura\nDetalle: Se acude a llamado de bomberos por evento de alta temperatura en calle Baquedano. Se realiza apertura de SED 10108 Mariposa. a las 11:10hrs. Se verifican 2 empalmes afectados por evento de alta temperatura, sin número de medidor visible, correspondientes a direcciones Baquedano 830 y Baquedano 822. En poste 783196 realiza desconexión de los 2 empalme y se verifica red de distribución sin daños. Se repone SED 10108 Mariposa. a las 13:52hrs verificando servicio normal en sector.\nBombero a cargo, Capitán Delfo González.\n\nGonzalo Jara / Ariel Gómez",
+    "n_photos_total": 20,
+    "photos": [
+      {
+        "img": "images/VALPO-PO-1703226-1__01.jpg",
+        "thumb": "images/VALPO-PO-1703226-1__thumb_01.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703226-1__02.jpg",
+        "thumb": "images/VALPO-PO-1703226-1__thumb_02.jpg"
+      }
+    ],
+    "n_photos_matched": 2,
+    "validation": {
+      "estado": "ok",
+      "motivo": "Foto muestra carro de bomberos, humo denso y personal actuando en la vía, consistente con evento de alta temperatura y llamado a bomberos."
+    }
+  },
+  {
+    "id": "VALPO-PO-1703309-1",
+    "group": "Reporte Valparaiso Dx",
+    "sender": "+56 9 3262 1703",
+    "start": "22/9/2026 14:10 (approx)",
+    "end": "22/9/2026 14:10 (approx)",
+    "primary_id": "PO: 1703309",
+    "ids": {
+      "po": [
+        "1703309"
+      ]
+    },
+    "text": "VLWW-61\nReporte Interrupción SAT\n\nPo: 1703309-1\nEquipo o Sed: Alimentador Uruguay\nRotulo: 113580/571252\nProbatorias FS: si\nTipo de Orden: Red\nCausa: linea cortada por hilo de volantin\nDetalle: Se verifica línea MT cortada por hilo de volantin entre los postes Rótulos 571252/113580 alimentador Uruguay.\n\nAtte CMM y LPA",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotos asociadas en el mensaje original de WhatsApp."
+    }
+  },
+  {
+    "id": "VALPO-PO-1703561-1",
+    "group": "Reporte Valparaiso Dx",
+    "sender": "+56 9 3262 1703",
+    "start": "23/9/2026 01:45 (approx)",
+    "end": "23/9/2026 01:45 (approx)",
+    "primary_id": "PO: 1703561",
+    "ids": {
+      "po": [
+        "1703561"
+      ]
+    },
+    "text": "VLWW-61\nReporte Sin Interrupción SAT\n\nPo: 1703561-1\nEquipo o Sed: 10269 Calle Raque Costa\nRotulo: 682152\nProbatorias FS: No\nTipo de Orden: Dom\nCausa: piola telecomunicaciones energizada\nDetalle: Se verifica alambre de piola energizada y provocando coci entre los rotulos 682152 y 112638 se aisla y se revisan estos 2 puntos y no se encuentra causa, se debe revisar con luz dia, sector conflictivo nos retiramos.\n\nAtte. AGU y MCS",
+    "n_photos_total": 20,
+    "photos": [
+      {
+        "img": "images/VALPO-PO-1703561-1__01.jpg",
+        "thumb": "images/VALPO-PO-1703561-1__thumb_01.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703561-1__02.jpg",
+        "thumb": "images/VALPO-PO-1703561-1__thumb_02.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703561-1__03.jpg",
+        "thumb": "images/VALPO-PO-1703561-1__thumb_03.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703561-1__04.jpg",
+        "thumb": "images/VALPO-PO-1703561-1__thumb_04.jpg"
+      },
+      {
+        "img": "images/VALPO-PO-1703561-1__05.jpg",
+        "thumb": "images/VALPO-PO-1703561-1__thumb_05.jpg"
+      }
+    ],
+    "n_photos_matched": 5,
+    "validation": {
+      "estado": "revisar",
+      "motivo": "Foto nocturna genérica de calle con tendido eléctrico; no se distingue la piola energizada ni el cortocircuito descrito en el texto."
     }
   }
 ]
