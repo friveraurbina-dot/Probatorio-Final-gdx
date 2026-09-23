@@ -44,6 +44,18 @@
     return out;
   }
 
+  // Validador de fotos vs. actividad declarada.
+  const VALIDATION_LABELS = {
+    ok: "✓ Corresponde",
+    revisar: "⚠ Revisar",
+    no_corresponde: "✕ No corresponde",
+    sin_fotos: "Sin fotos",
+  };
+
+  function validationLabel(estado) {
+    return VALIDATION_LABELS[estado] || estado;
+  }
+
   // Parsea fechas tipo "D/M/YYYY H:MM a. m./p. m." o "D/M/YYYY H:MM (approx)"
   // a un timestamp numérico para poder ordenar. Devuelve 0 si no se puede leer.
   function parseStartDate(raw) {
@@ -178,6 +190,12 @@
       } else {
         thumb.textContent = "Sin fotos";
       }
+      if (a.validation && a.validation.estado !== "sin_fotos") {
+        const vb = document.createElement("span");
+        vb.className = `val-badge card-thumb-badge val-${a.validation.estado}`;
+        vb.textContent = validationLabel(a.validation.estado);
+        thumb.appendChild(vb);
+      }
       card.appendChild(thumb);
 
       const body = document.createElement("div");
@@ -203,6 +221,14 @@
       .map((s) => `<span class="badge">${s}</span>`)
       .join("");
 
+    const validationHtml =
+      a.validation && a.validation.estado !== "sin_fotos"
+        ? `<div class="detail-validation val-${a.validation.estado}">
+             <span class="detail-validation-label">${validationLabel(a.validation.estado)}</span>
+             <span>${(a.validation.motivo || "").replace(/</g, "&lt;")}</span>
+           </div>`
+        : "";
+
     const shownPhotos = a.photos.slice(0, MAX_PHOTOS_PREVIEW);
     const remaining = a.photos.length - shownPhotos.length;
 
@@ -221,6 +247,7 @@
         <p class="detail-id">${a.primary_id || "Sin identificador"}</p>
         <p class="detail-meta">${a.group} &middot; ${a.sender || ""} &middot; ${fmtDate(a.start)}${a.start !== a.end ? " &ndash; " + fmtDate(a.end) : ""}</p>
       </div>
+      ${validationHtml}
       <div class="detail-ids">${idsHtml}</div>
       <div class="detail-text">${(a.text || "(sin texto)").replace(/</g, "&lt;")}</div>
       <div class="detail-actions">
