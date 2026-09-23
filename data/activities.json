@@ -24124,5 +24124,508 @@
       "estado": "revisar",
       "motivo": "Se ve cuadrilla despejando vegetación cerca de tendido eléctrico, pero el entorno muestra una autopista con barreras que no calza claramente con 'Camino La Planta' declarado."
     }
+  },
+  {
+    "id": "COSTA-SAP-10041206-30",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 3262 1647",
+    "start": "22/9/2026 7:17 a. m.",
+    "end": "22/9/2026 7:17 a. m.",
+    "primary_id": "SAP: 10041206",
+    "ids": {
+      "sap": [
+        "10041206"
+      ]
+    },
+    "text": "VZPW-79 Vinise\n+56 9 3262 1647\nINICIO TURNO SAT\n\nTECNICOS: Mario Rojas / Rodrigo Zúñiga\nPATENTE: VZPW-79\nFONO 1 ENTEL: +56941959241\nFONO 2 MOVISTAR: +56932621648\nZONA: COSTA MAÑANA\nTURNO: 07:00/15:00\nESTADO CUADRILLA Creada\nBLUETTI: SAP 10041206(vzpw79)\nCÁMARA FLIR: Si; N/S 110031120\nESTAMPAS OK: Si\n7:17 a. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SAP-10041403-26",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 3262 1664",
+    "start": "22/9/2026 8:01 a. m.",
+    "end": "22/9/2026 8:01 a. m.",
+    "primary_id": "SAP: 10041403",
+    "ids": {
+      "sap": [
+        "10041403"
+      ]
+    },
+    "text": "VZGR45  MARGA MARGA\n+56 9 3262 1664\nINICIO TURNO SAT\n\nTECNICOS\n  Ivan Diaz\n  Ernesto Beltran\nPATENTE: VZGR45\nFONO : +56932621664\nFono : +56941959236\n ZONA: Marga Marga  \nTURNO: \n     08:00 a 16:00 hrs\nESTADO CUADRILLA Bipersonal \nBluetti AC180: Si\nSap 10041403\nCÁMARA FLIR: Si\nESTAMPA ok: Si\n8:01 a. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SAP-10041404-28",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 3262 1682",
+    "start": "21/9/2026 11:59 p. m.",
+    "end": "21/9/2026 11:59 p. m.",
+    "primary_id": "SAP: 10041404",
+    "ids": {
+      "sap": [
+        "10041404"
+      ]
+    },
+    "text": "+56 9 3262 1682\nINICIO TURNO SAT\n\n TECNICOS C.contreras F.sandoval \nPATENTE VZGR-85 \nFONO 1 ENTEL: +56932621682\n • Fono 2 movistar +56941959251\nZONA: Marga Marga \nTURNO: 00:00 8:00\nESTADO CUADRILLA bipersonal \nBluetti AC180: Si,\nSap 10041404\nCÁMARA FLIR: Si\nESTAMPA ok: Si\n11:59 p. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SAP-10041404-29",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 3262 1682",
+    "start": "22/9/2026 8:07 a. m.",
+    "end": "22/9/2026 8:07 a. m.",
+    "primary_id": "SAP: 10041404",
+    "ids": {
+      "sap": [
+        "10041404"
+      ]
+    },
+    "text": "Movil VZGR85\n+56 9 3262 1682\nINICIO TURNO SAT\n\n TECNICOS F.Gamboa\nPATENTE VZGR-85 \nFONO 1 ENTEL: +56932621682\n • Fono 2 movistar +56941959251\nZONA: Marga Marga \nTURNO: 08⁰⁰ a 16⁰⁰hrs\nESTADO CUADRILLA Unipersonal \nBluetti AC180: Si,\nSap 10041404\nCÁMARA FLIR: Si\nESTAMPA ok: Si\n8:07 a. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SAP-1004556-45",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 4195 9241",
+    "start": "21/9/2026 11:01 p. m.",
+    "end": "21/9/2026 11:01 p. m.",
+    "primary_id": "SAP: 1004556",
+    "ids": {
+      "sap": [
+        "1004556"
+      ]
+    },
+    "text": "VZPW-69 Vinise\n+56 9 4195 9241\nINICIO TURNO SAT\n\nTECNICOS: Ignacio Apablaza// Ricardo Aros\nPATENTE: VZPW-69\nFONO 1 ENTEL: +56932621647\nFONO 2 MOVISTAR: +56941959244\nZONA: COSTA TARDE 1\nTURNO: 23:00/07:00\nESTADO CUADRILLA Creada\nBLUETTI: SAP 1004556(vzpw-69)\nCÁMARA FLIR: Si; N/S 110033821\nESTAMPAS OK: Si\n11:01 p. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SAP-1004556-46",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 4195 9241",
+    "start": "22/9/2026 7:02 a. m.",
+    "end": "22/9/2026 7:02 a. m.",
+    "primary_id": "SAP: 1004556",
+    "ids": {
+      "sap": [
+        "1004556"
+      ]
+    },
+    "text": "+56 9 4195 9241\nINICIO TURNO SAT\n\nTECNICOS: Jdelapaz/FVallejos \nPATENTE: VZPW-69\nFONO 1 ENTEL: +56932621647\nFONO 2 MOVISTAR: +56941959244\nZONA: COSTA mañana \nTURNO: 07:00 / 15:00 hrs\nESTADO CUADRILLA Creada\nBLUETTI: SAP 1004556(vzpw-69)\nCÁMARA FLIR: Si; N/S 110033821\nESTAMPAS OK: Si\n7:02 a. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SAP-1004556-47",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 4195 9241",
+    "start": "22/9/2026 11:02 p. m.",
+    "end": "22/9/2026 11:02 p. m.",
+    "primary_id": "SAP: 1004556",
+    "ids": {
+      "sap": [
+        "1004556"
+      ]
+    },
+    "text": "+56 9 4195 9241\nINICIO TURNO SAT\n\nTECNICOS: Ignacio Apablaza// Ricardo Aros \nPATENTE: VZPW-69\nFONO 1 ENTEL: +56932621647\nFONO 2 MOVISTAR: +56941959244\nZONA: COSTA TARDE 1\nTURNO: 23:00/07:00\nESTADO CUADRILLA Creada\nBLUETTI: SAP 1004556(vzpw-69)\nCÁMARA FLIR: Si; N/S 110033821\nESTAMPAS OK: Si\n11:02 p. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-19",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 3262 1647",
+    "start": "21/9/2026 8:19 p. m.",
+    "end": "21/9/2026 8:20 p. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "VZPW-79 Vinise\n+56 9 3262 1647\n8:20 p. m.",
+    "n_photos_total": 4,
+    "photos": [
+      {
+        "dt_raw": "21/9/2026 8:19 p. m.",
+        "img": "images/COSTA-SIN-ID-19__01.jpg",
+        "thumb": "images/COSTA-SIN-ID-19__thumb_01.jpg"
+      },
+      {
+        "dt_raw": "21/9/2026 8:19 p. m.",
+        "img": "images/COSTA-SIN-ID-19__02.jpg",
+        "thumb": "images/COSTA-SIN-ID-19__thumb_02.jpg"
+      },
+      {
+        "dt_raw": "21/9/2026 8:19 p. m.",
+        "img": "images/COSTA-SIN-ID-19__03.jpg",
+        "thumb": "images/COSTA-SIN-ID-19__thumb_03.jpg"
+      },
+      {
+        "dt_raw": "21/9/2026 8:19 p. m.",
+        "img": "images/COSTA-SIN-ID-19__04.jpg",
+        "thumb": "images/COSTA-SIN-ID-19__thumb_04.jpg"
+      }
+    ],
+    "n_photos_matched": 4,
+    "validation": {
+      "estado": "revisar",
+      "motivo": "Sin texto descriptivo (mensaje sin caption); la foto muestra postes con transformador y paneles solares cercanos, plausible del rubro eléctrico pero sin poder confirmar correspondencia específica."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-20",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 4195 9241",
+    "start": "21/9/2026 10:50 p. m.",
+    "end": "21/9/2026 10:50 p. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "VZPW-69 Vinise\n+56 9 4195 9241\nINFORMACIÓN FIN TURNO SAT\n\nTÉCNICOS: Juan Orellana / Alan Campos\nPATENTE: VZPW-69\nZONA: COSTA TARDE 1 15:00/23:00\n\nDetalle Cantidad de Ordenes Atendidas\n   DOM: 4\n   RED: 0\n   ELECTRO: 0\n   AUTOGESTIÓN: 0\n   PRESENTACIONES: 0\n10:50 p. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-21",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 3262 1647",
+    "start": "21/9/2026 10:58 p. m.",
+    "end": "21/9/2026 10:58 p. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "VZPW-79 Vinise\n+56 9 3262 1647\nINFORMACIÓN FIN TURNO SAT\n\nTÉCNICOS: Mitzzio Naranjo / Sebastián Mena\nPATENTE: VZPW-79\nZONA: COSTA TARDE 2 15:00/23:00\n\nDetalle Cantidad de Ordenes Atendidas\n   DOM: 6\n   RED: 1\n   ELECTRO: 0\n   AUTOGESTIÓN: 0\n   PRESENTACIONES: 0\n10:58 p. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-22",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 7922 8258",
+    "start": "21/9/2026 11:35 p. m.",
+    "end": "21/9/2026 11:35 p. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "VXRP-55 Vinise\n+56 9 7922 8258\nINFORMACIÓN FIN TURNO SAT\n\nTÉCNICOS: Leonardo Velasquez / Carlos Torres\nPATENTE: VZPW-99\nZONA: QUINTERO 15:00/23:00\n\nDetalle Cantidad de Ordenes Atendidas\n   DOM: 4\n   RED: 0\n   ELECTRO: 0\n   AUTOGESTIÓN: 2\n   PRESENTACIONES: 0\n11:35 p. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-23",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 3262 1664",
+    "start": "21/9/2026 11:54 p. m.",
+    "end": "21/9/2026 11:54 p. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "VZGR45  MARGA MARGA\n+56 9 3262 1664\nINFORMACION FIN TURNO SAT\n\nTÉCNICOS:\nEiturra/MOlivares \nPATENTE: VZGR-45\nDetalle: Cantidad de órdenes atendidas\n*DOM:*9\nRED:\nELECTRO: 0\nAUTOGESTIÓN: 0\nPRESENTACIONES: 0\n11:54 p. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-24",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 3262 1682",
+    "start": "21/9/2026 11:57 p. m.",
+    "end": "21/9/2026 11:57 p. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "Movil VZGR85\n+56 9 3262 1682\nINFORMACION FIN TURNO SAT :\n   TECNICOS: C Díaz - J blanchetau \n   PATENTE: VZGR-85 \nDetalle Cantidad de Ordenes Atendidas\n   DOM: 8\n   RED: 0\n   ELECTRO: 0\n   AUTOGESTION: 0 PRESENTACIONES: 0\n11:57 p. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-25",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 4195 9241",
+    "start": "22/9/2026 7:01 a. m.",
+    "end": "22/9/2026 7:01 a. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "+56 9 4195 9241\nINFORMACIÓN FIN TURNO SAT\n\nTÉCNICOS: Ignacio Apablaza / Ricardo Aros\nPATENTE: VZPW-69\nZONA: COSTA NOCHE 23:00/07:00\n\nDetalle Cantidad de Ordenes Atendidas\n   DOM: 1\n   RED: 1\n   ELECTRO: 0\n   AUTOGESTIÓN: 0\n   PRESENTACIONES: 0a\n7:01 a. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-26",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 3865 0018",
+    "start": "22/9/2026 7:10 a. m.",
+    "end": "22/9/2026 7:10 a. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "SAT Adicional Quillota\n+56 9 3865 0018\nINICIO TURNO SAT\n\nTECNICOS: Alexis Gonzales / David Orellana\nPATENTE: VXTT-38\nZONA: Quintero \nTURNO: 7:00 / 15:00\nESTADO CUADRILLA Creada\nBLUETTI: S/M Adicional\nCÁMARA FLIR: Si; S/C Adicional\nESTAMPAS OK: Si\n7:10 a. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-27",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 5846 3380",
+    "start": "22/9/2026 7:53 a. m.",
+    "end": "22/9/2026 7:53 a. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "Movil VZGR58\n+56 9 5846 3380\nINICIO TURNO SAT\n\nTECNICOS:  \nGonzalo Cataldo \nPATENTE: VZGR58\nFONO 1 ENTEL:  +56951273319\n • Fono 2 MOVISTAR: +56958463380\nZONA: Marga Marga\nTURNO : 08:⁰⁰ 16°° \nESTADO CUADRILLA:\nUnipersonal \nBluetti ac180: Si\nCÁMARA FLIR: Si\nESTAMPA ok: Si\n7:53 a. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-28",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 3262 1682",
+    "start": "22/9/2026 7:58 a. m.",
+    "end": "22/9/2026 7:58 a. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "Movil VZGR85\n+56 9 3262 1682\nINFORMACION FIN TURNO SAT :\n   TECNICOS: C.contreras//F.sandoval \n   PATENTE: VZGR-85 \nDetalle Cantidad de Ordenes Atendidas\n   DOM: 2\n   RED: 0\n   ELECTRO: 0\n   AUTOGESTION: 0 PRESENTACIONES: 0\n7:58 a. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-29",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 3262 1682",
+    "start": "22/9/2026 10:22 a. m.",
+    "end": "22/9/2026 10:22 a. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "Movil VZGR85\n+56 9 3262 1682\n4 fotos\n10:22 a. m.",
+    "n_photos_total": 3,
+    "photos": [
+      {
+        "dt_raw": "22/9/2026 10:22 a. m.",
+        "img": "images/COSTA-SIN-ID-29__01.jpg",
+        "thumb": "images/COSTA-SIN-ID-29__thumb_01.jpg"
+      },
+      {
+        "dt_raw": "22/9/2026 10:22 a. m.",
+        "img": "images/COSTA-SIN-ID-29__02.jpg",
+        "thumb": "images/COSTA-SIN-ID-29__thumb_02.jpg"
+      },
+      {
+        "dt_raw": "22/9/2026 10:22 a. m.",
+        "img": "images/COSTA-SIN-ID-29__03.jpg",
+        "thumb": "images/COSTA-SIN-ID-29__thumb_03.jpg"
+      }
+    ],
+    "n_photos_matched": 3,
+    "validation": {
+      "estado": "revisar",
+      "motivo": "El texto es solo '4 fotos' sin contenido descriptivo; la foto muestra una etiqueta de equipo SAP 10041404 de Chilquinta Distribución, consistente con un registro de turno pero sin poder confirmar la actividad específica."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-30",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 4195 9241",
+    "start": "22/9/2026 2:56 p. m.",
+    "end": "22/9/2026 2:56 p. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "VZPW-69 Vinise\n+56 9 4195 9241\n2:56 p. m.",
+    "n_photos_total": 4,
+    "photos": [
+      {
+        "dt_raw": "22/9/2026 2:56 p. m.",
+        "img": "images/COSTA-SIN-ID-30__01.jpg",
+        "thumb": "images/COSTA-SIN-ID-30__thumb_01.jpg"
+      },
+      {
+        "dt_raw": "22/9/2026 2:56 p. m.",
+        "img": "images/COSTA-SIN-ID-30__02.jpg",
+        "thumb": "images/COSTA-SIN-ID-30__thumb_02.jpg"
+      },
+      {
+        "dt_raw": "22/9/2026 2:56 p. m.",
+        "img": "images/COSTA-SIN-ID-30__03.jpg",
+        "thumb": "images/COSTA-SIN-ID-30__thumb_03.jpg"
+      },
+      {
+        "dt_raw": "22/9/2026 2:56 p. m.",
+        "img": "images/COSTA-SIN-ID-30__04.jpg",
+        "thumb": "images/COSTA-SIN-ID-30__thumb_04.jpg"
+      }
+    ],
+    "n_photos_matched": 4,
+    "validation": {
+      "estado": "revisar",
+      "motivo": "Sin texto descriptivo (mensaje sin caption); la foto muestra restos de volantín en el suelo junto a la vía, plausible pero sin texto que lo confirme."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-31",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 7922 8258",
+    "start": "22/9/2026 9:23 p. m.",
+    "end": "22/9/2026 9:23 p. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "VXRP-55 Vinise\n+56 9 7922 8258\n9:23 p. m.",
+    "n_photos_total": 5,
+    "photos": [
+      {
+        "dt_raw": "22/9/2026 9:23 p. m.",
+        "img": "images/COSTA-SIN-ID-31__01.jpg",
+        "thumb": "images/COSTA-SIN-ID-31__thumb_01.jpg"
+      },
+      {
+        "dt_raw": "22/9/2026 9:23 p. m.",
+        "img": "images/COSTA-SIN-ID-31__02.jpg",
+        "thumb": "images/COSTA-SIN-ID-31__thumb_02.jpg"
+      },
+      {
+        "dt_raw": "22/9/2026 9:23 p. m.",
+        "img": "images/COSTA-SIN-ID-31__03.jpg",
+        "thumb": "images/COSTA-SIN-ID-31__thumb_03.jpg"
+      },
+      {
+        "dt_raw": "22/9/2026 9:23 p. m.",
+        "img": "images/COSTA-SIN-ID-31__04.jpg",
+        "thumb": "images/COSTA-SIN-ID-31__thumb_04.jpg"
+      },
+      {
+        "dt_raw": "22/9/2026 9:23 p. m.",
+        "img": "images/COSTA-SIN-ID-31__05.jpg",
+        "thumb": "images/COSTA-SIN-ID-31__thumb_05.jpg"
+      }
+    ],
+    "n_photos_matched": 5,
+    "validation": {
+      "estado": "revisar",
+      "motivo": "Sin texto descriptivo (mensaje sin caption); la foto muestra trabajo nocturno en un poste con transformador y vehículo de servicio eléctrico, plausible pero sin texto que lo confirme."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-32",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 3262 1647",
+    "start": "22/9/2026 10:51 p. m.",
+    "end": "22/9/2026 10:51 p. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "VZPW-79 Vinise\n+56 9 3262 1647\nINFORMACIÓN FIN TURNO SAT\n\nTÉCNICOS: Leonardo Velasquez / Carlos Torres\nPATENTE: VZPW-79\nZONA: COSTA TARDE 2 15:00/23:00\n\nDetalle Cantidad de Ordenes Atendidas\n   DOM: 6\n   RED: 0\n   ELECTRO: 0\n   AUTOGESTIÓN: 0\n   PRESENTACIONES: 0\n10:51 p. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-33",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 7922 8258",
+    "start": "22/9/2026 10:56 p. m.",
+    "end": "22/9/2026 10:56 p. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "VXRP-55 Vinise\n+56 9 7922 8258\nINFORMACIÓN FIN TURNO SAT\n\nTÉCNICOS: Mitzzio Naranjo / Sebastián Mena\nPATENTE: VZPW-99\nZONA: QUINTERO 15:00/23:00\n\nDetalle Cantidad de Ordenes Atendidas\n   DOM: 4\n   RED: 1\n   ELECTRO: 0\n   AUTOGESTIÓN: 0\n   PRESENTACIONES: 0\n10:56 p. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
+  },
+  {
+    "id": "COSTA-SIN-ID-34",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 4195 9241",
+    "start": "22/9/2026 11:01 p. m.",
+    "end": "22/9/2026 11:01 p. m.",
+    "primary_id": null,
+    "ids": {},
+    "text": "VZPW-69 Vinise\n+56 9 4195 9241\nINFORMACIÓN FIN TURNO SAT\n\nTÉCNICOS: Juan Orellana / Jorge Vallejos\nPATENTE: VZPW-69\nZONA: COSTA TARDE 1 15:00/23:00\n\nDetalle Cantidad de Ordenes Atendidas\n   DOM: 4\n   RED: 0\n   ELECTRO: 0\n   AUTOGESTIÓN: 0\n   PRESENTACIONES: 0\n11:01 p. m.",
+    "n_photos_total": 0,
+    "photos": [],
+    "n_photos_matched": 0,
+    "validation": {
+      "estado": "sin_fotos",
+      "motivo": "Actividad sin fotografías asociadas."
+    }
   }
 ]
