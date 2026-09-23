@@ -23510,7 +23510,7 @@
     },
     "text": "Victor Diaz Araos\nBuenos días cuadrilla N2 en terreno\n*Obra a realizar=Cambio de Poste chocado MT\n*Fecha= 21/09/2026\n*Sector=Villa Alemana\n*Zona =Marga Marga\n*Despacho=Danilo Robles\n*SupChilq=Sabino Cruz\n*SupSiel=Fernanda Espinoza\n*Capataz= V.D\n*Alimentador=Huanhuali\n*Equipos Afectados=Sed 20984 San Rafael San Marcos\n*Permiso preventivo=PV-3372\n*Permiso trabajo=V-688\n*Observaciones=Se cancelan ambos permisos, a la espera de normalización de la zona. A esta hora servicio normal.",
     "n_photos_total": 14,
-    "n_photos_matched": 5,
+    "n_photos_matched": 7,
     "photos": [
       {
         "dt_raw": "22/9/2026 11:09 (approx)",
@@ -23536,6 +23536,14 @@
         "dt_raw": "22/9/2026 11:09 (approx)",
         "img": "images/SIEL-PV-3372__05.jpg",
         "thumb": "images/SIEL-PV-3372__thumb_05.jpg"
+      },
+      {
+        "img": "images/SIEL-PV-3372__06.jpg",
+        "thumb": "images/SIEL-PV-3372__thumb_06.jpg"
+      },
+      {
+        "img": "images/SIEL-PV-3372__07.jpg",
+        "thumb": "images/SIEL-PV-3372__thumb_07.jpg"
       }
     ],
     "validation": {
@@ -24874,5 +24882,241 @@
       "motivo": "Foto muestra múltiples cables de telecomunicaciones colgando a baja altura, enredados y arrastrando sobre vehículos estacionados, consistente con 'troncales a baja altura' y 'peligro de arrastre'"
     },
     "n_photos_matched": 2
+  },
+  {
+    "id": "SUP-DX-10212168",
+    "group": "Supervisores",
+    "sender": "+56 9 4213 3038",
+    "start": "23/9/2026 09:33 (approx)",
+    "end": "23/9/2026 09:34 (approx)",
+    "primary_id": "DX 10212168",
+    "ids": {
+      "dx": [
+        "10212168"
+      ]
+    },
+    "text": "garavenarree\nActividad RREE\nTIPO DE TRABAJO: Obras\nCLASIFICACION ACTIVIDAD: Entre PN 797460 y PN 563021 Intercalacion de poste para Traslado y aumento de capacidad de 45 KVA a 150 KVA SED 50583 Aeródromo sur calle 1 En PN 563021 Retiro de protecciónes y barra\nSEGMENTO: MT\nZONA: San Antonio\nAlimentador: San Juan\nARRANQUE: REC Aeródromo Santo Domingo\nOM /PO /DX1: DX 10212168\nMateriales:\nEn ejecución\nCosta D",
+    "n_photos_total": 1,
+    "photos": [
+      {
+        "img": "images/SUP-DX-10212168__01.jpg",
+        "thumb": "images/SUP-DX-10212168__thumb_01.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Foto muestra cuadrilla en canasto de camión pluma trabajando en poste de MT con transformador y cortacircuitos, junto a zona señalizada con conos; coincide con intercalación de poste y traslado/aumento de capacidad de SED descrito."
+    },
+    "n_photos_matched": 1
+  },
+  {
+    "id": "SUP-SAP-10212626",
+    "group": "Supervisores",
+    "sender": "+56 9 3442 4482",
+    "start": "23/9/2026 10:13 (approx)",
+    "end": "23/9/2026 10:19 (approx)",
+    "primary_id": "SAP 10212626",
+    "ids": {
+      "sap": [
+        "10212626"
+      ]
+    },
+    "text": "Danilo\nIntervencion RREE\nTipo de Trabajo: Nvas.Obras Capex Suficiencia\nClasificación de Actividad: Intercalacion de Poste Mt, Corte de Linea, Instalación de Crucetas de Remate Con CLBs, Instalación de Reconectador Tupungato Sitrans.Control, Pararrayos y Puesta en Servicio.\nSegmento: Mt\nZona: Valparaiso\nArranque: Rec.Belgica Barrio Industrial\nSP-2026-1857\nSAP: 10212626\nMateriales: En Proceso\nCosta B y Aconcagua A",
+    "n_photos_total": 1,
+    "photos": [
+      {
+        "img": "images/SUP-SAP-10212626__01.jpg",
+        "thumb": "images/SUP-SAP-10212626__thumb_01.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Foto muestra poste nuevo (naranja) recién izado con camión grúa y varias cuadrillas trabajando alrededor; coincide con intercalación de poste MT y corte de línea descrito en el texto."
+    },
+    "n_photos_matched": 1
+  },
+  {
+    "id": "SUP-DX-10211899",
+    "group": "Supervisores",
+    "sender": "+56 9 4406 1227",
+    "start": "23/9/2026 12:07 (approx)",
+    "end": "23/9/2026 13:08 (approx)",
+    "primary_id": "DX 10211899",
+    "ids": {
+      "dx": [
+        "10211899"
+      ]
+    },
+    "text": "Gonzalo Menares\nActividad RREE\nTIPO DE TRABAJO: Obra\nCLASIFICACION ACTIVIDAD: subir red de MT y cerrar puentes\nSEGMENTO: MT\nZONA: Valparaiso\nALIMENTADOR: viña del mar\nARRANQUE: Rec Viña del Alto marañón\nOM /PO /DX1: DX 10211899\nMateriales:\n[mensaje posterior, 13:08]: Trabajo ejecutado",
+    "n_photos_total": 4,
+    "photos": [
+      {
+        "img": "images/SUP-DX-10211899__01.jpg",
+        "thumb": "images/SUP-DX-10211899__thumb_01.jpg"
+      },
+      {
+        "img": "images/SUP-DX-10211899__02.jpg",
+        "thumb": "images/SUP-DX-10211899__thumb_02.jpg"
+      },
+      {
+        "img": "images/SUP-DX-10211899__03.jpg",
+        "thumb": "images/SUP-DX-10211899__thumb_03.jpg"
+      },
+      {
+        "img": "images/SUP-DX-10211899__04.jpg",
+        "thumb": "images/SUP-DX-10211899__thumb_04.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Foto muestra técnico en canasto trabajando directamente sobre conductores de MT en la cruceta de un poste; coincide con la actividad de 'subir red de MT y cerrar puentes'."
+    },
+    "n_photos_matched": 4
+  },
+  {
+    "id": "COSTA-PO-1703591",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 5846 3380",
+    "start": "23/9/2026 09:31 (approx)",
+    "end": "23/9/2026 09:31 (approx)",
+    "primary_id": "PO: 1703591",
+    "ids": {
+      "po": [
+        "1703591"
+      ]
+    },
+    "text": "Movil VZGR58\nReporte sin Interrupción SAT\nPo: 1703591\nEquipo o sed: 20609\nTD Tierras Rojas-Achernar\nRotulo: 845530\nProbatorias FS: NO\nCausa: manejo de la vegetación\nDetalle: se requiere efectuar poda BT y MT entre los postes rótulos 845530 y 201952 de calle Ojos de Agua\nPalmera en contacto con red MT.\nGonzalo Cataldo\nUnipersonal",
+    "n_photos_total": 2,
+    "photos": [
+      {
+        "img": "images/COSTA-PO-1703591__01.jpg",
+        "thumb": "images/COSTA-PO-1703591__thumb_01.jpg"
+      },
+      {
+        "img": "images/COSTA-PO-1703591__02.jpg",
+        "thumb": "images/COSTA-PO-1703591__thumb_02.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Foto muestra palmera en contacto directo con conductores de MT sobre un poste; coincide exactamente con 'palmera en contacto con red MT' del reporte."
+    },
+    "n_photos_matched": 2
+  },
+  {
+    "id": "COSTA-PO-1703591-1",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 5846 3380",
+    "start": "23/9/2026 10:55 (approx)",
+    "end": "23/9/2026 10:55 (approx)",
+    "primary_id": "PO: 1703591",
+    "ids": {
+      "po": [
+        "1703591"
+      ]
+    },
+    "text": "Movil VZGR58\nReporte sin Interrupción SAT\nPo: 1703591\nEquipo o sed: 21763\nTD Lomas de Paine, Lomas de Lontue\nRotulo: 676959\nProbatorias FS: NO\nCausa: manejo de la vegetación\nDetalle: se requiere efectuar poda MT entre los postes rótulos 676959 y 676968 de Pje. Loma Verde.\nPalmera en contacto con red MT.\nGonzalo Cataldo\nUnipersonal",
+    "n_photos_total": 2,
+    "photos": [
+      {
+        "img": "images/COSTA-PO-1703591-1__01.jpg",
+        "thumb": "images/COSTA-PO-1703591-1__thumb_01.jpg"
+      },
+      {
+        "img": "images/COSTA-PO-1703591-1__02.jpg",
+        "thumb": "images/COSTA-PO-1703591-1__thumb_02.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Foto muestra palmeras cuyo follaje alcanza el tendido de MT junto a un poste; consistente con la solicitud de poda por palmera en contacto con red MT."
+    },
+    "n_photos_matched": 2
+  },
+  {
+    "id": "COSTA-PO-1703591-2",
+    "group": "Reporte SAT Costa_MM",
+    "sender": "+56 9 5846 3380",
+    "start": "23/9/2026 11:16 (approx)",
+    "end": "23/9/2026 11:16 (approx)",
+    "primary_id": "PO: 1703591",
+    "ids": {
+      "po": [
+        "1703591"
+      ]
+    },
+    "text": "Movil VZGR58\nReporte sin Interrupción SAT\nPo: 1703591\nEquipo o sed: 23048\nTD Las Barrancas\nCalle 2\nRotulo: 709766\nProbatorias FS: NO\nCausa: contacto con objeto\nDetalle: se requiere retiro de volantines de red MT entre los postes rótulos 709766 y 709258 de calle Andres Rivanera\nGonzalo Cataldo\nUnipersonal",
+    "n_photos_total": 2,
+    "photos": [
+      {
+        "img": "images/COSTA-PO-1703591-2__01.jpg",
+        "thumb": "images/COSTA-PO-1703591-2__thumb_01.jpg"
+      },
+      {
+        "img": "images/COSTA-PO-1703591-2__02.jpg",
+        "thumb": "images/COSTA-PO-1703591-2__thumb_02.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Foto muestra tiras/volantines (restos de cometas) colgando de los conductores en un poste; coincide con 'retiro de volantines de red MT' descrito."
+    },
+    "n_photos_matched": 2
+  },
+  {
+    "id": "EMPALMES-SIN-ID-1",
+    "group": "Trabajos Mant. Empalmes",
+    "sender": "+56 9 8418 5793",
+    "start": "22/9/2026 17:07 (approx)",
+    "end": "22/9/2026 17:07 (approx)",
+    "primary_id": "Sin identificador",
+    "ids": {},
+    "text": "Christiansen\nSindicato 2",
+    "n_photos_total": 3,
+    "photos": [
+      {
+        "img": "images/EMPALMES-SIN-ID-1__01.jpg",
+        "thumb": "images/EMPALMES-SIN-ID-1__thumb_01.jpg"
+      },
+      {
+        "img": "images/EMPALMES-SIN-ID-1__02.jpg",
+        "thumb": "images/EMPALMES-SIN-ID-1__thumb_02.jpg"
+      },
+      {
+        "img": "images/EMPALMES-SIN-ID-1__03.jpg",
+        "thumb": "images/EMPALMES-SIN-ID-1__thumb_03.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "revisar",
+      "motivo": "Foto muestra un poste de madera nuevo con aisladores y empalme de MT recién instalado (trabajo eléctrico plausible), pero el texto 'Sindicato 2' no aporta ningún detalle descriptivo que permita confirmar que corresponde específicamente a esta actividad."
+    },
+    "n_photos_matched": 3
+  },
+  {
+    "id": "DISTR-OM-10151651-1",
+    "group": "Fotos distribución",
+    "sender": "+56 9 9289 6737",
+    "start": "23/9/2026 11:14 (approx)",
+    "end": "23/9/2026 11:14 (approx)",
+    "primary_id": "OM 10151651",
+    "ids": {
+      "om": [
+        "10151651"
+      ]
+    },
+    "text": "Emi\nEjecución personal contratista: Praderas Verdes Zona Valparaiso\nComuna Valparaiso\nAlimentador Peñuelas\nRec/Sed Obispo Valdez Ruta 68\nPermiso 3298\nOM 10151651\nSector Ruta 68 en direccion a Valparaiso",
+    "n_photos_total": 1,
+    "photos": [
+      {
+        "img": "images/DISTR-OM-10151651-1__01.jpg",
+        "thumb": "images/DISTR-OM-10151651-1__thumb_01.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Foto muestra trabajador con chaleco reflectante realizando poda/despeje de árbol junto a tendido eléctrico; consistente con ejecución de manejo de vegetación por contratista descrito en el texto."
+    },
+    "n_photos_matched": 1
   }
 ]
