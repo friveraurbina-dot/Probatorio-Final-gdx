@@ -3,6 +3,56 @@
 
   const MAX_PHOTOS_PREVIEW = 5;
 
+  // ---- Agrupación por zona de mantenimiento ----
+  // Nombres a mostrar para grupos que se renombraron en el tablero
+  // (el nombre real del grupo de WhatsApp, en `activities.json`, no cambia).
+  const GROUP_DISPLAY_NAMES = {
+    "Supervisores": "Redes Energizadas",
+    "Trabajos Mant. Empalmes": "Empalmes Distribucion",
+    "Fotos distribución": "Fotos Terreno",
+  };
+
+  // A qué zona de mantenimiento pertenece cada grupo de WhatsApp.
+  // Los grupos que no aparecen acá se muestran en la sección "General"
+  // (sin desglose por zona), por ahora: Reporte SAT Costa_MM, Redes
+  // Energizadas, Empalmes Distribucion y Fotos Terreno.
+  const GROUP_ZONES = {
+    "Coordinación SIEL Chilquinta": "Zona Costa",
+    "Reporte Valparaiso Dx": "Zona Valparaíso",
+    // Grupos nuevos pendientes de incorporar (ver claude/estado-proyecto.md):
+    // "Reporte Quillota": "Zona Quillota",
+    // "Reporte San Antonio": "Zona San Antonio",
+    // "Reporte SAT Los Andes": "Zona Los Andes",
+  };
+
+  // Orden fijo de las zonas en pestañas y en el resumen (aunque algunas
+  // todavía no tengan ningún grupo asignado).
+  const ZONE_ORDER = [
+    "Zona Aconcagua",
+    "Zona Quillota",
+    "Zona Marga Marga",
+    "Zona Costa",
+    "Zona Valparaíso",
+    "Zona San Antonio",
+    "Zona Los Andes",
+  ];
+
+  const ZONE_TAB_PREFIX = "zone:";
+
+  function displayName(group) {
+    return GROUP_DISPLAY_NAMES[group] || group;
+  }
+
+  function zoneOf(group) {
+    return GROUP_ZONES[group] || null;
+  }
+
+  function groupLabelWithZone(group) {
+    const z = zoneOf(group);
+    const name = displayName(group);
+    return z ? `${name} · ${z}` : name;
+  }
+
   const state = {
     all: [],
     filtered: [],
@@ -90,10 +140,17 @@
   }
 
   function renderTabs(data) {
-    const groups = Array.from(new Set(data.map((a) => a.group))).sort();
-    const tabDefs = [{ value: "", label: "Resumen" }].concat(
-      groups.map((g) => ({ value: g, label: g }))
+    const groups = Array.from(new Set(data.map((a) => a.group)));
+    const zonesPresent = ZONE_ORDER.filter((z) =>
+      groups.some((g) => zoneOf(g) === z)
     );
+    const ungroupedGroups = groups
+      .filter((g) => !zoneOf(g))
+      .sort((a, b) => displayName(a).localeCompare(displayName(b)));
+
+    const tabDefs = [{ value: "", label: "Resumen" }]
+      .concat(zonesPresent.map((z) => ({ value: ZONE_TAB_PREFIX + z, label: z })))
+      .concat(ungroupedGroups.map((g) => ({ value: g, label: displayName(g) })));
     el.tabs.innerHTML = "";
     tabDefs.forEach(({ value, label }) => {
       const btn = document.createElement("button");
@@ -115,44 +172,84 @@
   }
 
   function renderSummaryCards(data) {
-    const groups = Array.from(new Set(data.map((a) => a.group))).sort();
-    el.summaryGrid.innerHTML = groups
-      .map((g) => {
-        const items = data.filter((a) => a.group === g);
-        const photos = items.reduce((sum, a) => sum + a.photos.length, 0);
-        return `
-          <div class="summary-card" data-group="${g}">
-            <h3>${g}</h3>
-            <div class="summary-nums">
-              <div><b>${items.length}</b>actividades</div>
-              <div><b>${photos}</b>fotos</div>
-            </div>
+    const groups = Array.from(new Set(data.map((a) => a.group)));
+    const zonesPresent = ZONE_ORDER.filter((z) =>
+      groups.some((g) => zoneOf(g) === z)
+    );
+    const ungroupedGroups = groups
+      .filter((g) => !zoneOf(g))
+      .sort((a, b) => displayName(a).localeCompare(displayName(b)));
+
+    function cardHtml(label, items, tabValue) {
+      const photos = items.reduce((sum, a) => sum + a.photos.length, 0);
+      return `
+        <div class="summary-card" data-tab="${tabValue}">
+          <h3>${label}</h3>
+          <div class="summary-nums">
+            <div><b>${items.length}</b>actividades</div>
+            <div><b>${photos}</b>fotos</div>
           </div>
-        `;
-      })
-      .join("");
+        </div>
+      `;
+    }
+
+    let html = "";
+
+    if (zonesPresent.length > 0) {
+      html += `<h2 class="summary-section-title">Detalle por zona de mantenimiento</h2>`;
+      html += `<div class="summary-grid-inner">`;
+      zonesPresent.forEach((z) => {
+        const items = data.filter((a) => zoneOf(a.group) === z);
+        html += cardHtml(z, items, ZONE_TAB_PREFIX + z);
+      });
+      html += `</div>`;
+    }
+
+    if (ungroupedGroups.length > 0) {
+      html += `<h2 class="summary-section-title">General</h2>`;
+      html += `<div class="summary-grid-inner">`;
+      ungroupedGroups.forEach((g) => {
+        const items = data.filter((a) => a.group === g);
+        html += cardHtml(displayName(g), items, g);
+      });
+      html += `</div>`;
+    }
+
+    el.summaryGrid.innerHTML = html;
     el.summaryGrid.querySelectorAll(".summary-card").forEach((card) => {
-      card.addEventListener("click", () => selectTab(card.dataset.group));
+      card.addEventListener("click", () => selectTab(card.dataset.tab));
     });
   }
 
   function renderStats(data) {
     const totalPhotos = data.reduce((sum, a) => sum + a.photos.length, 0);
     const groups = new Set(data.map((a) => a.group)).size;
+    const zonesPresent = new Set(
+      data.map((a) => zoneOf(a.group)).filter(Boolean)
+    ).size;
     el.stats.innerHTML = `
       <div><b>${data.length}</b>actividades</div>
       <div><b>${totalPhotos}</b>fotos</div>
       <div><b>${groups}</b>grupos</div>
+      <div><b>${zonesPresent}</b>zonas</div>
     `;
   }
 
   function applyFilters() {
     const q = el.searchInput.value.trim().toLowerCase();
-    const group = state.activeTab;
+    const tabValue = state.activeTab;
     const photoMode = el.photoFilter.value;
+    const isZone = tabValue.startsWith(ZONE_TAB_PREFIX);
+    const zoneName = isZone ? tabValue.slice(ZONE_TAB_PREFIX.length) : null;
 
     state.filtered = state.all.filter((a) => {
-      if (group && a.group !== group) return false;
+      if (tabValue) {
+        if (isZone) {
+          if (zoneOf(a.group) !== zoneName) return false;
+        } else if (a.group !== tabValue) {
+          return false;
+        }
+      }
       if (photoMode === "with" && a.photos.length === 0) return false;
       if (photoMode === "without" && a.photos.length > 0) return false;
       if (q) {
@@ -160,6 +257,7 @@
           a.primary_id || "",
           a.sender || "",
           a.group || "",
+          displayName(a.group) || "",
           a.text || "",
           idsFlat(a.ids).join(" "),
         ]
@@ -202,7 +300,7 @@
       body.className = "card-body";
       body.innerHTML = `
         <span class="badge">${a.primary_id || "Sin identificador"}</span>
-        <div class="card-group">${a.group}</div>
+        <div class="card-group">${groupLabelWithZone(a.group)}</div>
         <div class="card-dates">${fmtDate(a.start)}${a.start !== a.end ? " &ndash; " + fmtDate(a.end) : ""}</div>
         <div class="card-text">${(a.text || "").slice(0, 140)}</div>
         <div class="card-footer">
@@ -245,7 +343,7 @@
     el.modalBody.innerHTML = `
       <div class="detail-header">
         <p class="detail-id">${a.primary_id || "Sin identificador"}</p>
-        <p class="detail-meta">${a.group} &middot; ${a.sender || ""} &middot; ${fmtDate(a.start)}${a.start !== a.end ? " &ndash; " + fmtDate(a.end) : ""}</p>
+        <p class="detail-meta">${groupLabelWithZone(a.group)} &middot; ${a.sender || ""} &middot; ${fmtDate(a.start)}${a.start !== a.end ? " &ndash; " + fmtDate(a.end) : ""}</p>
       </div>
       ${validationHtml}
       <div class="detail-ids">${idsHtml}</div>
@@ -330,7 +428,7 @@
 
       doc.setFont(undefined, "normal");
       doc.setFontSize(10);
-      doc.text(`Grupo: ${a.group}`, margin, y); y += 14;
+      doc.text(`Grupo: ${groupLabelWithZone(a.group)}`, margin, y); y += 14;
       doc.text(`Remitente: ${a.sender || ""}`, margin, y); y += 14;
       doc.text(`Fecha: ${fmtDate(a.start)}${a.start !== a.end ? " a " + fmtDate(a.end) : ""}`, margin, y); y += 14;
       const idsLine = idsFlat(a.ids).join("  |  ");
@@ -427,7 +525,7 @@
 
       const infoLines = [
         `Identificador: ${a.primary_id || "Sin identificador"}`,
-        `Grupo: ${a.group}`,
+        `Grupo: ${groupLabelWithZone(a.group)}`,
         `Remitente: ${a.sender || ""}`,
         `Fecha: ${fmtDate(a.start)}${a.start !== a.end ? " a " + fmtDate(a.end) : ""}`,
         `Identificadores detectados: ${idsFlat(a.ids).join(", ")}`,
