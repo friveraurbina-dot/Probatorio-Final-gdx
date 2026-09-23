@@ -86,10 +86,23 @@ main { max-width: 1200px; margin: 0 auto; padding: 20px; }
 .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
 
 .summary-grid {
+  margin-bottom: 22px;
+}
+
+.summary-section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 10px;
+}
+.summary-section-title:not(:first-child) { margin-top: 26px; }
+
+.summary-grid-inner {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   gap: 12px;
-  margin-bottom: 22px;
 }
 
 .summary-card {
