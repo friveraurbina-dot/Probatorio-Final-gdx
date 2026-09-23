@@ -163,7 +163,55 @@ main { max-width: 1200px; margin: 0 auto; padding: 20px; }
   justify-content: center;
   color: var(--text-muted);
   font-size: 13px;
+  position: relative;
 }
+
+/* Validador de fotos vs. actividad declarada */
+.val-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 999px;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.val-badge.val-ok { background: #e3f5e9; color: #1a7a3f; }
+.val-badge.val-revisar { background: #fff4d9; color: #8a6100; }
+.val-badge.val-no_corresponde { background: #fde2e1; color: #b3261e; }
+.val-badge.val-sin_fotos { background: #eceef1; color: var(--text-muted); }
+
+.card-thumb-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  box-shadow: 0 1px 3px rgba(20,22,26,0.25);
+}
+
+.detail-validation {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.detail-validation-label {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.03em;
+}
+.detail-validation.val-ok { background: #e3f5e9; color: #14532d; }
+.detail-validation.val-revisar { background: #fff4d9; color: #713f12; }
+.detail-validation.val-no_corresponde { background: #fde2e1; color: #7f1d1d; }
+.detail-validation.val-sin_fotos { background: #eceef1; color: #3f4550; }
 
 .card-body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; }
 
