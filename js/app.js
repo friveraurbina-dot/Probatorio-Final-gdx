@@ -19,10 +19,10 @@
   const GROUP_ZONES = {
     "Coordinación SIEL Chilquinta": "Zona Costa",
     "Reporte Valparaiso Dx": "Zona Valparaíso",
+    "Reporte SAT Los Andes": "Zona Aconcagua",
     // Grupos nuevos pendientes de incorporar (ver claude/estado-proyecto.md):
     // "Reporte Quillota": "Zona Quillota",
     // "Reporte San Antonio": "Zona San Antonio",
-    // "Reporte SAT Los Andes": "Zona Los Andes",
   };
 
   // Orden fijo de las zonas en pestañas y en el resumen (aunque algunas
