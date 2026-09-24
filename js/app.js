@@ -20,9 +20,9 @@
     "Coordinación SIEL Chilquinta": "Zona Costa",
     "Reporte Valparaiso Dx": "Zona Valparaíso",
     "Reporte SAT Los Andes": "Zona Aconcagua",
+    "Reporte San Antonio": "Zona San Antonio",
     // Grupos nuevos pendientes de incorporar (ver claude/estado-proyecto.md):
     // "Reporte Quillota": "Zona Quillota",
-    // "Reporte San Antonio": "Zona San Antonio",
   };
 
   // Orden fijo de las zonas en pestañas y en el resumen (aunque algunas
