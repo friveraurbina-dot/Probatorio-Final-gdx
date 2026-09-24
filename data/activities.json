@@ -25742,5 +25742,737 @@
         "thumb": "images/LOSANDES-PO-1703380__thumb_10.jpg"
       }
     ]
+  },
+  {
+    "id": "SANANTONIO-PO-1699309",
+    "group": "Reporte San Antonio",
+    "sender": "Movil SAT 2",
+    "start": "2026-09-13T17:27:00",
+    "end": "2026-09-13T17:49:00",
+    "primary_id": "1699309",
+    "ids": [
+      "1699309"
+    ],
+    "text": "Reporte Interrupción SAT\nPO: 1699309\nEquipo o sed: 51112 Huertos de chile// El molo.\nProbatorias FS: Si\nCausa: poste chocado\nDetalle: Se verifica poste BT de paso rótulo 501310 chocado derribado desde su base. Neutro cortado entre rótulos 501310 y 501309. Material 21 mm2 cu 70 mts app. Se verifica soporte aislador losa de paso fase R BT doblado. Poste rótulo 501311. Sin causante de los daños en terreno. Zona SED 51112, se verifica las 3 fases operadas BT. 17:27, se ejecuta maniobra de apertura protecciones BT-MT. Instalado hexágono PST. Alumbrado público desconectado desde poste rótulo 706877. Informado operador centro de control DX. Carabineros indican causante de los daños: Sr. Ivan Gonzalez Contreras, Rut 6.116.103-k.\nLCV / PBP.",
+    "n_photos_total": 13,
+    "n_photos_matched": 13,
+    "photos": [
+      {
+        "img": "images/SANANTONIO-PO-1699309__01.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_01.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1699309__02.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_02.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1699309__03.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_03.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1699309__04.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_04.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1699309__05.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_05.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1699309__06.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_06.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1699309__07.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_07.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1699309__08.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_08.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1699309__09.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_09.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1699309__10.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_10.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1699309__11.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_11.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1699309__12.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_12.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1699309__13.jpg",
+        "thumb": "images/SANANTONIO-PO-1699309__thumb_13.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran poste BT de paso derribado desde su base, consistente con el relato."
+    }
+  },
+  {
+    "id": "SANANTONIO-PO-1701182",
+    "group": "Reporte San Antonio",
+    "sender": "Movil SAT 2",
+    "start": "2026-09-18T00:12:00",
+    "end": "2026-09-18T00:12:00",
+    "primary_id": "1701182",
+    "ids": [
+      "1701182"
+    ],
+    "text": "Reporte Interrupción SAT\nPO: 1701182\nEquipo o sed: sed 50725 Las Rocas/ Las Olas\nRótulo: 593205\nProbatorias FS: si\nCausa: Choque de vehículo a instalaciones eléctricas\nDetalle: Se verifica choque a tirante BT descabezado poste rótulo 593205, además entre rótulos 593204 y 593203 fase blanca cortada a causa del sinbramiento que ocasionó poste descabezado. Sin protecciones operadas. Se retira restos de fase en pésimo estado y se alimenta el tramo con concéntrico en forma provisoria. Se da aviso a analista.\nMRC/ CMT.",
+    "n_photos_total": 12,
+    "n_photos_matched": 12,
+    "photos": [
+      {
+        "img": "images/SANANTONIO-PO-1701182__01.jpg",
+        "thumb": "images/SANANTONIO-PO-1701182__thumb_01.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701182__02.jpg",
+        "thumb": "images/SANANTONIO-PO-1701182__thumb_02.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701182__03.jpg",
+        "thumb": "images/SANANTONIO-PO-1701182__thumb_03.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701182__04.jpg",
+        "thumb": "images/SANANTONIO-PO-1701182__thumb_04.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701182__05.jpg",
+        "thumb": "images/SANANTONIO-PO-1701182__thumb_05.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701182__06.jpg",
+        "thumb": "images/SANANTONIO-PO-1701182__thumb_06.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701182__07.jpg",
+        "thumb": "images/SANANTONIO-PO-1701182__thumb_07.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701182__08.jpg",
+        "thumb": "images/SANANTONIO-PO-1701182__thumb_08.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701182__09.jpg",
+        "thumb": "images/SANANTONIO-PO-1701182__thumb_09.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701182__10.jpg",
+        "thumb": "images/SANANTONIO-PO-1701182__thumb_10.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701182__11.jpg",
+        "thumb": "images/SANANTONIO-PO-1701182__thumb_11.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701182__12.jpg",
+        "thumb": "images/SANANTONIO-PO-1701182__thumb_12.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran crucero/tirante BT descabezado enredado en árboles, consistente con el relato."
+    }
+  },
+  {
+    "id": "SANANTONIO-PO-1701573",
+    "group": "Reporte San Antonio",
+    "sender": "Movil SAT 2",
+    "start": "2026-09-19T02:05:00",
+    "end": "2026-09-19T01:54:00",
+    "primary_id": "1701573",
+    "ids": [
+      "1701573"
+    ],
+    "text": "Reporte Interrupción SAT\nPO: 1701573\nEquipo o sed: 50063 Aromos // Las Rosas\nRótulo: 505595\nProbatorias FS: Si\nCausa: Choque de vehículos a instalaciones eléctricas\nDetalle: Se verifica fus BT operado fase blanca, a causa de cortocircuito momentáneo entre líneas entre los rótulos 505726 al 505724, provocado por choque de vehículo a tirante BT en PR 502726, sin más daños y sin datos de causante. Se verifica red despejada y se normaliza fus BT con 160 KVA a las 01:54 hrs verificando servicio normal en zona y con clientes.\nP. Clavijo // C. Muñoz.",
+    "n_photos_total": 16,
+    "n_photos_matched": 16,
+    "photos": [
+      {
+        "img": "images/SANANTONIO-PO-1701573__01.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_01.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__02.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_02.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__03.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_03.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__04.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_04.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__05.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_05.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__06.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_06.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__07.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_07.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__08.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_08.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__09.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_09.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__10.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_10.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__11.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_11.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__12.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_12.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__13.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_13.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__14.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_14.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__15.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_15.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1701573__16.jpg",
+        "thumb": "images/SANANTONIO-PO-1701573__thumb_16.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Foto muestra poste con tirante/cable dañado en vía pública, consistente con choque de vehículo."
+    }
+  },
+  {
+    "id": "SANANTONIO-PO-1702234",
+    "group": "Reporte San Antonio",
+    "sender": "Movil SAT 1",
+    "start": "2026-09-20T08:46:00",
+    "end": "2026-09-20T09:04:00",
+    "primary_id": "1702234",
+    "ids": [
+      "1702234"
+    ],
+    "text": "Reporte Interrupción SAT\nPO: 1702234\nEquipo o sed: Arranque Las Planicies // Reinaldo Barahona\nRótulo: 595782\nProbatorias FS: Si\nCausa: Contacto con objeto\nDetalle: Se verifica fus MT operado fase roja, a causa de línea MT cortada fase roja por hilo de volantín entre los rótulos PR 595782 y 595781. Se realiza apertura de emergencia de Arranque a las 08:46 hrs, se retiran bastones, se instala hexágono no operar y se verifica sin tensión hacia línea cortada. Se informa a despacho.\nP. Clavijo // C. Muñoz.",
+    "n_photos_total": 4,
+    "n_photos_matched": 4,
+    "photos": [
+      {
+        "img": "images/SANANTONIO-PO-1702234__01.jpg",
+        "thumb": "images/SANANTONIO-PO-1702234__thumb_01.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702234__02.jpg",
+        "thumb": "images/SANANTONIO-PO-1702234__thumb_02.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702234__03.jpg",
+        "thumb": "images/SANANTONIO-PO-1702234__thumb_03.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702234__04.jpg",
+        "thumb": "images/SANANTONIO-PO-1702234__thumb_04.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "revisar",
+      "motivo": "Fotos son primeros planos del conductor cortado sin plano general del arranque/poste; no se aprecia el hilo de volantín citado como causa."
+    }
+  },
+  {
+    "id": "SANANTONIO-PO-1702300",
+    "group": "Reporte San Antonio",
+    "sender": "Movil SAT 1",
+    "start": "2026-09-20T11:02:00",
+    "end": "2026-09-20T11:10:00",
+    "primary_id": "1702300",
+    "ids": [
+      "1702300"
+    ],
+    "text": "Reporte Interrupción SAT\nPO: 1702300\nEquipo o sed: Arranque Altos Cartagena // Las Verbena\nRótulo: 784086\nProbatorias FS: Si\nCausa: Acción de animales\nDetalle: Se verifica fus MT operado fase blanca, a causa de contacto de ave con red MT en PR 787067, se verifica red despejada y se normaliza fus MT a las 11:02 hrs con 20A curva K verificando servicio normal en zona y con clientes.\nP. Clavijo // C. Muñoz.",
+    "n_photos_total": 12,
+    "n_photos_matched": 12,
+    "photos": [
+      {
+        "img": "images/SANANTONIO-PO-1702300__01.jpg",
+        "thumb": "images/SANANTONIO-PO-1702300__thumb_01.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702300__02.jpg",
+        "thumb": "images/SANANTONIO-PO-1702300__thumb_02.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702300__03.jpg",
+        "thumb": "images/SANANTONIO-PO-1702300__thumb_03.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702300__04.jpg",
+        "thumb": "images/SANANTONIO-PO-1702300__thumb_04.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702300__05.jpg",
+        "thumb": "images/SANANTONIO-PO-1702300__thumb_05.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702300__06.jpg",
+        "thumb": "images/SANANTONIO-PO-1702300__thumb_06.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702300__07.jpg",
+        "thumb": "images/SANANTONIO-PO-1702300__thumb_07.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702300__08.jpg",
+        "thumb": "images/SANANTONIO-PO-1702300__thumb_08.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702300__09.jpg",
+        "thumb": "images/SANANTONIO-PO-1702300__thumb_09.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702300__10.jpg",
+        "thumb": "images/SANANTONIO-PO-1702300__thumb_10.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702300__11.jpg",
+        "thumb": "images/SANANTONIO-PO-1702300__thumb_11.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702300__12.jpg",
+        "thumb": "images/SANANTONIO-PO-1702300__thumb_12.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran el poste con fusible MT entre arboleda, consistente con contacto de ave."
+    }
+  },
+  {
+    "id": "SANANTONIO-PO-1702390",
+    "group": "Reporte San Antonio",
+    "sender": "Movil SAT 2",
+    "start": "2026-09-20T16:45:00",
+    "end": "2026-09-20T17:42:00",
+    "primary_id": "1702390",
+    "ids": [
+      "1702390"
+    ],
+    "text": "Reporte Interrupción SAT\nPO: 1702390\nEquipo o sed: Reconectador Ariztia los Lilenes\nRótulo: 595670\nProbatorias FS: Si\nCausa: Defecto de material o equipo\nDetalle: Reconectador Lockout por falla de SED 51178 La Princesa manzana G, PR 707329, T/D con pérdida de aceite. Se verifica operada fase A en Arr. Cno Pelequen Hortisur, PR 661005, se aisla TD con falla. 16:45 hrs se normaliza arranque con Fus MT 3 x25K (3x10K) VSN en el sector.\nTécnicos M.Iglesias / Mauricio Toro.",
+    "n_photos_total": 4,
+    "n_photos_matched": 4,
+    "photos": [
+      {
+        "img": "images/SANANTONIO-PO-1702390__01.jpg",
+        "thumb": "images/SANANTONIO-PO-1702390__thumb_01.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702390__02.jpg",
+        "thumb": "images/SANANTONIO-PO-1702390__thumb_02.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702390__03.jpg",
+        "thumb": "images/SANANTONIO-PO-1702390__thumb_03.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1702390__04.jpg",
+        "thumb": "images/SANANTONIO-PO-1702390__thumb_04.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Foto muestra el reconectador/equipo en el poste de noche, consistente con el relato."
+    }
+  },
+  {
+    "id": "SANANTONIO-PO-1703356",
+    "group": "Reporte San Antonio",
+    "sender": "Movil SAT 2",
+    "start": "2026-09-22T17:27:00",
+    "end": "2026-09-22T17:49:00",
+    "primary_id": "1703356",
+    "ids": [
+      "1703356"
+    ],
+    "text": "Reporte Interrupción SAT\nPO: 1703356\nEquipo o sed: 51088 el mirador del yali N°1\nRótulo: 693595\nProbatorias FS: Si\nCausa: Defecto de material o equipo\nDetalle: Se verifica icp de sed operado se realiza patrullaje y se verifica desde pr/698631 al final de red pr/698637 neutro y fase azul cortados en red BT (conductor aluminio), producto de choque de camión a tirante BT en pr/698631, sin responsable en terreno, 17:49hrs se procede a abrir y retirar bastones de red MT instalando exágono y probando sin energía hacia líneas cortadas.\nObs: se deja fono contacto para apertura de portón 974508745 Renato\nMGR-MRC",
+    "n_photos_total": 13,
+    "n_photos_matched": 13,
+    "photos": [
+      {
+        "img": "images/SANANTONIO-PO-1703356__01.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_01.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703356__02.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_02.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703356__03.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_03.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703356__04.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_04.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703356__05.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_05.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703356__06.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_06.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703356__07.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_07.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703356__08.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_08.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703356__09.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_09.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703356__10.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_10.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703356__11.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_11.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703356__12.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_12.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703356__13.jpg",
+        "thumb": "images/SANANTONIO-PO-1703356__thumb_13.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran postes rurales con tirante/crucero dañado, sector coincide con las coordenadas del reporte. Nota: este PO se había marcado erróneamente 'sin fotos' en una revisión previa por DOM-scan sin scroll; corregido en esta sesión."
+    }
+  },
+  {
+    "id": "SANANTONIO-PO-1703524-A",
+    "group": "Reporte San Antonio",
+    "sender": "Movil SAT 2",
+    "start": "2026-09-22T20:40:00",
+    "end": "2026-09-22T21:48:00",
+    "primary_id": "1703524",
+    "ids": [
+      "1703524"
+    ],
+    "text": "Reporte Interrupción SAT\nPO: 1703524\nEquipo o sed: 51934 Manuel Bulnes segundo Bustamante\nRótulo: 595812\nProbatorias FS: Si\nCausa: evento alta temperatura\nDetalle: Se atiende llamado de bomberos por EAT eléctrico, se verifica sed operada fase Roja en red MT, se verifica preensamblado cortado entre pr/595812 y pr/595830, se realiza apertura por emergencia 20:40 BT y MT, se abren y retiran bastones, se instala exágono y se prueba sin tensión. Protecciones se dejan en bodega SAT ya que en el lugar había gran multitud de gente de la toma del sector. Sector conflictivo.\nMGR-MRC.",
+    "n_photos_total": 9,
+    "n_photos_matched": 9,
+    "photos": [
+      {
+        "img": "images/SANANTONIO-PO-1703524-A__01.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-A__thumb_01.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703524-A__02.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-A__thumb_02.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703524-A__03.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-A__thumb_03.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703524-A__04.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-A__thumb_04.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703524-A__05.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-A__thumb_05.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703524-A__06.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-A__thumb_06.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703524-A__07.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-A__thumb_07.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703524-A__08.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-A__thumb_08.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703524-A__09.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-A__thumb_09.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Álbum incluye captura de GISRED confirmando SED 51934 Manuel Bulnes Segundo Bustamante y fotos nocturnas del poste/preensamblado dañado, consistentes con el relato."
+    }
+  },
+  {
+    "id": "SANANTONIO-PO-1703524-B",
+    "group": "Reporte San Antonio",
+    "sender": "Movil SAT 2",
+    "start": "2026-09-22T23:50:00",
+    "end": "2026-09-22T23:50:00",
+    "primary_id": "1703524",
+    "ids": [
+      "1703524"
+    ],
+    "text": "Reporte Interrupción SAT\nPO: 1703524\nEquipo o sed: 50095 poblado aguas buenas\nRótulo: 509321\nProbatorias FS: Si\nCausa: Defecto de material o equipo\nDetalle: Se verifica pr/659268 afianzado con maderas y estacas de metal en poste, vecino del sector indica que grúa portacontenedores entra y sale del sitio todo el día y paso a llevar cables telefónicos, indica que ellos mismos instalaron soporte a poste de madera, se verifica servicio normal en sector.\nObs: se debe analizar instalación de poste de mayor altura.\nMGR-MRC.",
+    "n_photos_total": 5,
+    "n_photos_matched": 5,
+    "photos": [
+      {
+        "img": "images/SANANTONIO-PO-1703524-B__01.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-B__thumb_01.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703524-B__02.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-B__thumb_02.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703524-B__03.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-B__thumb_03.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703524-B__04.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-B__thumb_04.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703524-B__05.jpg",
+        "thumb": "images/SANANTONIO-PO-1703524-B__thumb_05.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran poste afianzado con maderas/estacas junto a bodegas/contenedores, consistente con el relato del segundo aviso (misma PO, distinta ubicación 'aguas buenas')."
+    }
+  },
+  {
+    "id": "SANANTONIO-PO-170297-B",
+    "group": "Reporte San Antonio",
+    "sender": "Movil SAT 2",
+    "start": "2026-09-23T11:11:00",
+    "end": "2026-09-23T11:20:00",
+    "primary_id": "170297",
+    "ids": [
+      "170297"
+    ],
+    "text": "Reporte Interrupción SAT\nPO: 170297\nEquipo o sed: 50236\nRótulo: 501446\nProbatorias FS: Si\nCausa: impacto gancho ramas u otro tipo de vegetación\nDetalle: Se realiza poda menor entre los rótulos 746478-621673 en árbol municipal topando red BT haciendo operar fase A del cto A de la sed. A las 11:11hrs se normaliza fase A BT 1x160 amp verificando servicio normal en la zona.\nTécnicos M.Iglesias / Mauricio Toro.",
+    "n_photos_total": 9,
+    "n_photos_matched": 9,
+    "photos": [
+      {
+        "img": "images/SANANTONIO-PO-170297-B__01.jpg",
+        "thumb": "images/SANANTONIO-PO-170297-B__thumb_01.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-170297-B__02.jpg",
+        "thumb": "images/SANANTONIO-PO-170297-B__thumb_02.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-170297-B__03.jpg",
+        "thumb": "images/SANANTONIO-PO-170297-B__thumb_03.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-170297-B__04.jpg",
+        "thumb": "images/SANANTONIO-PO-170297-B__thumb_04.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-170297-B__05.jpg",
+        "thumb": "images/SANANTONIO-PO-170297-B__thumb_05.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-170297-B__06.jpg",
+        "thumb": "images/SANANTONIO-PO-170297-B__thumb_06.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-170297-B__07.jpg",
+        "thumb": "images/SANANTONIO-PO-170297-B__thumb_07.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-170297-B__08.jpg",
+        "thumb": "images/SANANTONIO-PO-170297-B__thumb_08.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-170297-B__09.jpg",
+        "thumb": "images/SANANTONIO-PO-170297-B__thumb_09.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Álbum incluye captura de GISRED con los rótulos 621673 y 746478 citados en el detalle, más fotos de ramas sobre el tendido BT, consistente con el relato."
+    }
+  },
+  {
+    "id": "SANANTONIO-PO-1703528",
+    "group": "Reporte San Antonio",
+    "sender": "Movil VZGR85",
+    "start": "2026-09-23T11:24:00",
+    "end": "2026-09-23T13:35:00",
+    "primary_id": "1703528",
+    "ids": [
+      "1703528"
+    ],
+    "text": "Reporte Interrupción SAT\nPO: 1703528\nEquipo o sed: 51934 Manuel Bulnes segundo Bustamante\nProbatorias FS: si\nTipo de Orden: red\nCausa: a petición de despacho\nDetalle: Para la SED 51934 Manuel Bulnes segundo Bustamante, con el Pc 3303 (11:24), se procede a desengrampar preensamblado existente y se procede a engrapar nuevo preensamblado y a su vez conectar puente neutro y tierra. Posteriormente verifica zona despejada, circuito libre, 13:35 se normaliza MT y BT, VSN en la zona.\nM.Silva/A.aranda.",
+    "n_photos_total": 14,
+    "n_photos_matched": 14,
+    "photos": [
+      {
+        "img": "images/SANANTONIO-PO-1703528__01.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_01.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__02.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_02.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__03.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_03.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__04.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_04.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__05.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_05.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__06.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_06.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__07.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_07.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__08.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_08.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__09.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_09.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__10.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_10.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__11.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_11.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__12.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_12.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__13.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_13.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703528__14.jpg",
+        "thumb": "images/SANANTONIO-PO-1703528__thumb_14.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran el edificio/poste de la SED Manuel Bulnes con trabajo de preensamblado en curso, consistente con el relato."
+    }
+  },
+  {
+    "id": "SANANTONIO-PO-1703847",
+    "group": "Reporte San Antonio",
+    "sender": "Movil SAT 1",
+    "start": "2026-09-23T21:48:00",
+    "end": "2026-09-23T22:37:00",
+    "primary_id": "1703847",
+    "ids": [
+      "1703847"
+    ],
+    "text": "Reporte Interrupción SAT\nPO: 1703847\nEquipo o sed: sed 50204 Dalcahue/ Petrohue\nRótulo: 561302\nProbatorias FS: Si\nCausa: Defecto de material u equipo\nDetalle: Se verifica fase roja en BT cortada a la salida de sed 50204 Dalcahue/ Petrohue, rótulo 501301, por mal contacto en unión americana, sin protecciones operadas, se procede a abrir sed a las 21:48 hrs. Se trabaja con PC 3314 en la reparación. 22:37 hrs se cierra MT y BT, VSN en la zona.\nMRC/ MGR.",
+    "n_photos_total": 12,
+    "n_photos_matched": 12,
+    "photos": [
+      {
+        "img": "images/SANANTONIO-PO-1703847__01.jpg",
+        "thumb": "images/SANANTONIO-PO-1703847__thumb_01.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703847__02.jpg",
+        "thumb": "images/SANANTONIO-PO-1703847__thumb_02.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703847__03.jpg",
+        "thumb": "images/SANANTONIO-PO-1703847__thumb_03.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703847__04.jpg",
+        "thumb": "images/SANANTONIO-PO-1703847__thumb_04.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703847__05.jpg",
+        "thumb": "images/SANANTONIO-PO-1703847__thumb_05.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703847__06.jpg",
+        "thumb": "images/SANANTONIO-PO-1703847__thumb_06.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703847__07.jpg",
+        "thumb": "images/SANANTONIO-PO-1703847__thumb_07.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703847__08.jpg",
+        "thumb": "images/SANANTONIO-PO-1703847__thumb_08.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703847__09.jpg",
+        "thumb": "images/SANANTONIO-PO-1703847__thumb_09.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703847__10.jpg",
+        "thumb": "images/SANANTONIO-PO-1703847__thumb_10.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703847__11.jpg",
+        "thumb": "images/SANANTONIO-PO-1703847__thumb_11.jpg"
+      },
+      {
+        "img": "images/SANANTONIO-PO-1703847__12.jpg",
+        "thumb": "images/SANANTONIO-PO-1703847__thumb_12.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran unión/empalme BT reparado en poste, con timestamps dentro de la ventana horaria reportada (21:48-22:41 hrs)."
+    }
   }
 ]
