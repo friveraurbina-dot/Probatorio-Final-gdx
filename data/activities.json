@@ -26474,5 +26474,681 @@
       "estado": "ok",
       "motivo": "Fotos muestran unión/empalme BT reparado en poste, con timestamps dentro de la ventana horaria reportada (21:48-22:41 hrs)."
     }
+  },
+  {
+    "id": "QUILLOTA-PO-1703674-1",
+    "group": "Reporte Quillota",
+    "sender": "Movil Limache",
+    "start": "2026-09-23T12:50:00",
+    "end": "2026-09-23T19:42:00",
+    "primary_id": "1703674-1",
+    "ids": [
+      "1703674-1"
+    ],
+    "text": "Reporte SAT\nP.O: 1703674-1\nEquipo o SED: 32355 Portales las rosas (45kva)\nRotulo: 602751\nProbatorias: Si\nCausas: Daño en la infraestructura por eventos catastróficos de la naturaleza\nDetalle: Se verifica sed 32355 Portales las rosas (45kva) sin protecciones operadas.\nEn el lugar poste BT con Rotulo: 602751 segun sistema caido, base de poste, y fragmentos de este, corrido por trabajadores en el punto.\nSegún propietario en el lugar indica que situación ocurrió durante temporal por caida de arbol sobre red y esta fue informado a municipalidad correspondiente.\n12:10hrs Por seguridad se abre puentes en punto de poste caido de red preensamblado, por transito de maquinaria retroescabadora sobre red BT.\nMateriales: Red Preensamblado 3x35mm neutro 50mm (58Mt aproximadamente); Red 2x16mm2 correspondiente a Ap; 01 Soporte una via para red Ap; 02 Perno ojo para tensor preensamblado de remate intermedio; Escuadra telecomunicaciones Blanca/Negra.\nNOTA: Cliente en el lugar posiblemente encargado de obra, molesto por desconexion, genera tension durante trabajos.\nHenry Guzman // Matias Aguilera\n\nPosteriormente: R/602764. 13:45 hrs abiertos puentes. Y vst aguas abajo de punto de desconexion. Cto Ap alimentado de red ya desenergizada.\n\nCierre: Verificado zona despejada, tierras y personal fuera del area. Sed 32355 Portales Las Rosas. R/856564. 18:43hrs se procede abrir BT, retirar bastones, instalar hexagono no operar verificando sin tension hacia la zona afectada. 19:18hrs Con el PA 4146 se procede a normalizar puentes en el r/602764. Verificado zona despejada. 19:33hrs se procede a retirar hex, instalar bastones, cerrar BT verificando servicio normal en el sector.",
+    "n_photos_total": 56,
+    "n_photos_matched": 56,
+    "photos": [
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__01.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_01.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__02.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_02.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__03.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_03.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__04.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_04.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__05.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_05.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__06.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_06.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__07.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_07.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__08.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_08.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__09.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_09.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__10.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_10.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__11.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_11.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__12.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_12.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__13.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_13.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__14.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_14.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__15.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_15.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__16.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_16.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__17.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_17.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__18.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_18.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__19.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_19.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__20.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_20.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__21.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_21.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__22.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_22.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__23.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_23.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__24.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_24.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__25.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_25.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__26.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_26.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__27.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_27.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__28.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_28.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__29.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_29.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__30.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_30.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__31.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_31.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__32.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_32.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__33.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_33.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__34.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_34.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__35.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_35.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__36.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_36.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__37.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_37.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__38.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_38.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__39.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_39.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__40.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_40.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__41.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_41.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__42.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_42.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__43.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_43.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__44.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_44.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__45.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_45.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__46.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_46.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__47.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_47.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__48.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_48.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__49.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_49.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__50.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_50.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__51.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_51.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__52.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_52.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__53.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_53.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__54.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_54.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__55.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_55.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703674-1__56.jpg",
+        "thumb": "images/QUILLOTA-PO-1703674-1__thumb_56.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran poste BT caído/base fracturada, trabajos de reposición de red preensamblado, tag SED 32355 Portales las rosas visible directamente, y secuencia de cierre nocturna (hexágono, normalización de puentes), consistente con el relato completo (apertura, posteriormente y cierre)."
+    }
+  },
+  {
+    "id": "QUILLOTA-SINPO-717923",
+    "group": "Reporte Quillota",
+    "sender": "Movil Sat Quillota",
+    "start": "2026-09-23T15:32:00",
+    "end": "2026-09-23T15:32:00",
+    "primary_id": "717923",
+    "ids": [
+      "717923"
+    ],
+    "text": "Reporte Interrupción SAT\nPo: Sin P.O.\nEquipo o Sed: REGULADORES DE VOLTAJE SAID RAUTEN\nRotulo: 717923\nProbatorias FS: N/A\nCausa: N/A\nDetalle: Se verifica situacion de terreno de: Tipo de ajuste: Delta Abierto.\nEquipo 1 rotulo 717923 y 719093. Tap 1. Min: -5. Max: 16.\nEquipo 2 rotulo 719096 y 719087. Tap 0 (luz neutral encendida). Min: -1. Max: 0.\nControl se encontraba en local, se cambia a remoto.\nBraulio Mazuela / David Arancibia",
+    "n_photos_total": 6,
+    "n_photos_matched": 6,
+    "photos": [
+      {
+        "img": "images/QUILLOTA-SINPO-717923__01.jpg",
+        "thumb": "images/QUILLOTA-SINPO-717923__thumb_01.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-SINPO-717923__02.jpg",
+        "thumb": "images/QUILLOTA-SINPO-717923__thumb_02.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-SINPO-717923__03.jpg",
+        "thumb": "images/QUILLOTA-SINPO-717923__thumb_03.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-SINPO-717923__04.jpg",
+        "thumb": "images/QUILLOTA-SINPO-717923__thumb_04.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-SINPO-717923__05.jpg",
+        "thumb": "images/QUILLOTA-SINPO-717923__thumb_05.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-SINPO-717923__06.jpg",
+        "thumb": "images/QUILLOTA-SINPO-717923__thumb_06.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran los reguladores SAID RAUTEN con tag rótulo 31399/719096 visible, panorámica del equipo en poste, cartel de peligro alta tensión y bypass-switch regulador N°1, consistente con el relato de ajuste Delta Abierto en ambos equipos."
+    }
+  },
+  {
+    "id": "QUILLOTA-PO-1703791-1",
+    "group": "Reporte Quillota",
+    "sender": "Movil Sat Quillota",
+    "start": "2026-09-23T21:01:00",
+    "end": "2026-09-23T21:02:00",
+    "primary_id": "1703791-1",
+    "ids": [
+      "1703791-1"
+    ],
+    "text": "Reporte SAT\nP.O: 1703791-1\nEquipo o SED: 30549 San Martin Chacabuco\nRotulo: 321793\nProbatorias: Si\nCausas: intervención de terceros\nDetalle: se verifica Fase A operada en BT del cto B, en conjunto con personal de mantenimiento se verifica COCI en concentrado de 3 medidores.\nMed 64441. Med 234240. Med 73351.\nConectados a poste Rt 680171 provocado por tercero (Eléctrico particular) indicado por dueño del domicilio.\nQuedando med 234240 y med 73351 desconectado y retirados con caja de empalme por mismo electrico con tablero particular sin terminar sin espacio para los medidores retirados, con estas condiciones se desconectan Acometidas se retiran y se dejan en domicilio junto a medidores retirados.\nVerificado red despejada circuito libre.\nA las 20:25hrs se normaliza fase A con fusible reja 300A verificando servicio normal en la zona y clientes.\nNota: personal de mantenimiento le indica a cliente acercarse a area comercial y se necesita normalizar empalmes.\nBernardo Campaña // Sebastian Cortes // V.Arce",
+    "n_photos_total": 26,
+    "n_photos_matched": 26,
+    "photos": [
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__01.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_01.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__02.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_02.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__03.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_03.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__04.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_04.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__05.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_05.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__06.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_06.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__07.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_07.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__08.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_08.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__09.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_09.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__10.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_10.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__11.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_11.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__12.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_12.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__13.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_13.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__14.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_14.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__15.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_15.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__16.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_16.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__17.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_17.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__18.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_18.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__19.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_19.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__20.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_20.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__21.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_21.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__22.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_22.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__23.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_23.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__24.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_24.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__25.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_25.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703791-1__26.jpg",
+        "thumb": "images/QUILLOTA-PO-1703791-1__thumb_26.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran los 3 medidores citados con barcode visible (LE0064441, LE0234240, LE0073351), tablero/caja de empalme intervenido, fachada del local comercial (Ortopedia Orthomax) donde se ubica el poste Rt 680171, consistente con el relato de intervención eléctrica de terceros."
+    }
+  },
+  {
+    "id": "QUILLOTA-PO-1703827",
+    "group": "Reporte Quillota",
+    "sender": "Movil Limache",
+    "start": "2026-09-23T22:25:00",
+    "end": "2026-09-23T22:26:00",
+    "primary_id": "1703827",
+    "ids": [
+      "1703827"
+    ],
+    "text": "Reporte Interrupción SAT\nPo: 1703827\nEquipo o SED: SED 31447 Altos De Olmue 4\nRotulo: 724120\nProbatorias FS: Si\nCausa: Poda o tala de arboles o roce de la vegetación\nDetalle: Se verifica fase R operada en BT. Se realiza patrullaje encontrando entre rt/718545 y rt/724985 poda particular. Verificado zona despejada.\n22:11hrs se normaliza fase R con fusible nh50kva verificando servicio normal en el sector y realizando toma de cargas: A: 10a. B: 11.3a. R: 13a / 41a peak.\nClaudio Ojeda / Pedro Barraza",
+    "n_photos_total": 11,
+    "n_photos_matched": 11,
+    "photos": [
+      {
+        "img": "images/QUILLOTA-PO-1703827__01.jpg",
+        "thumb": "images/QUILLOTA-PO-1703827__thumb_01.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703827__02.jpg",
+        "thumb": "images/QUILLOTA-PO-1703827__thumb_02.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703827__03.jpg",
+        "thumb": "images/QUILLOTA-PO-1703827__thumb_03.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703827__04.jpg",
+        "thumb": "images/QUILLOTA-PO-1703827__thumb_04.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703827__05.jpg",
+        "thumb": "images/QUILLOTA-PO-1703827__thumb_05.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703827__06.jpg",
+        "thumb": "images/QUILLOTA-PO-1703827__thumb_06.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703827__07.jpg",
+        "thumb": "images/QUILLOTA-PO-1703827__thumb_07.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703827__08.jpg",
+        "thumb": "images/QUILLOTA-PO-1703827__thumb_08.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703827__09.jpg",
+        "thumb": "images/QUILLOTA-PO-1703827__thumb_09.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703827__10.jpg",
+        "thumb": "images/QUILLOTA-PO-1703827__thumb_10.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703827__11.jpg",
+        "thumb": "images/QUILLOTA-PO-1703827__thumb_11.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran tag SED 31447 75 KVA Altos De Olmue 4 en el poste, ramas/árboles podados y caídos sobre la zona de tendido, y trabajo de reposición de fusible nocturno, consistente con causa de poda/tala de vegetación."
+    }
+  },
+  {
+    "id": "QUILLOTA-PO-1703954",
+    "group": "Reporte Quillota",
+    "sender": "Quinto Movil",
+    "start": "2026-09-24T13:05:00",
+    "end": "2026-09-24T13:06:00",
+    "primary_id": "1703954",
+    "ids": [
+      "1703954"
+    ],
+    "text": "Reporte Presentación Nro. 265861092 SAT\nP.O: 1703954\nEquipo o SED: 30088\nRotulo: 662125\nProbatorias: SI\nCausas: ajuste conexiones\nDetalle: Se solicita orden de Presentación a Despacho el cual asigna P.O., se toma contacto via telefono con cliente para coordinar visita e indica tener Variaciones de voltajes, se revisa caja de empalme, esta estando en mediciones normales, posteriormente se revisa conexiones poste compañía y se verifica aisladas, fusible fallado, se cambia y se VSN con cliente.\nP.Mazuela / A.Gonzalez",
+    "n_photos_total": 12,
+    "n_photos_matched": 12,
+    "photos": [
+      {
+        "img": "images/QUILLOTA-PO-1703954__01.jpg",
+        "thumb": "images/QUILLOTA-PO-1703954__thumb_01.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703954__02.jpg",
+        "thumb": "images/QUILLOTA-PO-1703954__thumb_02.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703954__03.jpg",
+        "thumb": "images/QUILLOTA-PO-1703954__thumb_03.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703954__04.jpg",
+        "thumb": "images/QUILLOTA-PO-1703954__thumb_04.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703954__05.jpg",
+        "thumb": "images/QUILLOTA-PO-1703954__thumb_05.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703954__06.jpg",
+        "thumb": "images/QUILLOTA-PO-1703954__thumb_06.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703954__07.jpg",
+        "thumb": "images/QUILLOTA-PO-1703954__thumb_07.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703954__08.jpg",
+        "thumb": "images/QUILLOTA-PO-1703954__thumb_08.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703954__09.jpg",
+        "thumb": "images/QUILLOTA-PO-1703954__thumb_09.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703954__10.jpg",
+        "thumb": "images/QUILLOTA-PO-1703954__thumb_10.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703954__11.jpg",
+        "thumb": "images/QUILLOTA-PO-1703954__thumb_11.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703954__12.jpg",
+        "thumb": "images/QUILLOTA-PO-1703954__thumb_12.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran mediciones de voltaje con pinza Fluke (214.6V, 219.5V, 225.1V) consistentes con las variaciones reportadas, medidor de energía, caja de empalme intervenida y fusible en poste, consistente con el relato de ajuste de conexiones."
+    }
+  },
+  {
+    "id": "QUILLOTA-PO-1704011-1",
+    "group": "Reporte Quillota",
+    "sender": "La Calera Entel",
+    "start": "2026-09-24T14:13:00",
+    "end": "2026-09-24T14:13:00",
+    "primary_id": "1704011-1",
+    "ids": [
+      "1704011-1"
+    ],
+    "text": "Reporte SAT\nP.O: 1704011-1\nEquipo o SED: arr. El Trigal Sector Alto\nRotulo: 829229\nProbatorias: Si\nCausas: Sobrecarga\nDetalle: Como Autogestion, en inspección de red se verifica arr el trigal sector alto rt 829229. fase A op MT.\nSe patrulla la zona verificando red despejada, bajo esa condición se normaliza fase A con misma capacidad 6k, normalizando a las 13:35hrs verificando normal.",
+    "n_photos_total": 6,
+    "n_photos_matched": 6,
+    "photos": [
+      {
+        "img": "images/QUILLOTA-PO-1704011-1__01.jpg",
+        "thumb": "images/QUILLOTA-PO-1704011-1__thumb_01.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1704011-1__02.jpg",
+        "thumb": "images/QUILLOTA-PO-1704011-1__thumb_02.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1704011-1__03.jpg",
+        "thumb": "images/QUILLOTA-PO-1704011-1__thumb_03.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1704011-1__04.jpg",
+        "thumb": "images/QUILLOTA-PO-1704011-1__thumb_04.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1704011-1__05.jpg",
+        "thumb": "images/QUILLOTA-PO-1704011-1__thumb_05.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1704011-1__06.jpg",
+        "thumb": "images/QUILLOTA-PO-1704011-1__thumb_06.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran el poste con tag \"Arr. El Trigal Sector Alto\" y rótulo 829229 visible directamente, tomadas en distintos horarios (patrullaje y normalización), consistente con el relato de sobrecarga en el arranque MT."
+    }
+  },
+  {
+    "id": "QUILLOTA-PO-1703873-1-A",
+    "group": "Reporte Quillota",
+    "sender": "Movil Sat Quillota",
+    "start": "2026-09-24T03:26:00",
+    "end": "2026-09-24T03:28:00",
+    "primary_id": "1703873-1",
+    "ids": [
+      "1703873-1"
+    ],
+    "text": "Reporte sin Interrupción SAT\nPo: 1703873-1\nEquipo o SED: 31321 Portal Araucarias 1\nRotulo: 710355\nProbatorias FS: No\nCausa: Autogestion, Inspección de redes, termografia.\nDetalle: se adjuntan registros fotográficos de termográfia asociados a protección BT y MT de TD 31321. Ademas se mide puente BT asociados a rotulo 710579. Al realizar mediciones, protecciones BT-MT y puente sin puntos calientes.\nVictorEstay/Pablo cofre. Vinise",
+    "n_photos_total": 4,
+    "n_photos_matched": 4,
+    "photos": [
+      {
+        "img": "images/QUILLOTA-PO-1703873-1-A__01.jpg",
+        "thumb": "images/QUILLOTA-PO-1703873-1-A__thumb_01.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703873-1-A__02.jpg",
+        "thumb": "images/QUILLOTA-PO-1703873-1-A__thumb_02.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703873-1-A__03.jpg",
+        "thumb": "images/QUILLOTA-PO-1703873-1-A__thumb_03.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703873-1-A__04.jpg",
+        "thumb": "images/QUILLOTA-PO-1703873-1-A__thumb_04.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Foto termográfica no muestra puntos calientes anómalos (máx 27.0°C), y fotos complementarias muestran tag \"150 KVA Portal Araucarias 1\" visible directamente, consistente con inspección de rutina sin hallazgos."
+    }
+  },
+  {
+    "id": "QUILLOTA-PO-1703873-1-B",
+    "group": "Reporte Quillota",
+    "sender": "Movil Sat Quillota",
+    "start": "2026-09-24T03:33:00",
+    "end": "2026-09-24T03:35:00",
+    "primary_id": "1703873-1",
+    "ids": [
+      "1703873-1"
+    ],
+    "text": "Reporte sin Interrupción SAT\nPo: 1703873-1\nEquipo o SED: 30796 Conjunto Habitacional el sendero 2\nRotulo: 322518\nProbatorias FS: No\nCausa: Autogestion, Inspección de redes, termografia.\nDetalle: se adjuntan registros fotográficos de termográfia asociados a protección BT y MT de TD 30796. Ademas se mide puente BT asociados a rotulo 313463. Al realizar mediciones, protecciones BT-MT y puente sin puntos calientes.\nVictorEstay/Pablo cofre. Vinise\n\n(Mismo P.O. 1703873-1 reutilizado para una segunda inspección de termografía en una SED distinta durante el mismo turno; se documenta como incidente separado -B.)",
+    "n_photos_total": 8,
+    "n_photos_matched": 8,
+    "photos": [
+      {
+        "img": "images/QUILLOTA-PO-1703873-1-B__01.jpg",
+        "thumb": "images/QUILLOTA-PO-1703873-1-B__thumb_01.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703873-1-B__02.jpg",
+        "thumb": "images/QUILLOTA-PO-1703873-1-B__thumb_02.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703873-1-B__03.jpg",
+        "thumb": "images/QUILLOTA-PO-1703873-1-B__thumb_03.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703873-1-B__04.jpg",
+        "thumb": "images/QUILLOTA-PO-1703873-1-B__thumb_04.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703873-1-B__05.jpg",
+        "thumb": "images/QUILLOTA-PO-1703873-1-B__thumb_05.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703873-1-B__06.jpg",
+        "thumb": "images/QUILLOTA-PO-1703873-1-B__thumb_06.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703873-1-B__07.jpg",
+        "thumb": "images/QUILLOTA-PO-1703873-1-B__thumb_07.jpg"
+      },
+      {
+        "img": "images/QUILLOTA-PO-1703873-1-B__08.jpg",
+        "thumb": "images/QUILLOTA-PO-1703873-1-B__thumb_08.jpg"
+      }
+    ],
+    "validation": {
+      "estado": "ok",
+      "motivo": "Fotos muestran tag \"30796 S/E Conj Habit El Sendero 2 75 KVA\" y rótulo 313463 visibles directamente, más dos capturas termográficas (máx 15.8°C y 24.0°C) sin puntos calientes anómalos, consistente con inspección de rutina sin hallazgos en esta segunda SED."
+    }
   }
 ]
