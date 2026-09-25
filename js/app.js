@@ -21,8 +21,7 @@
     "Reporte Valparaiso Dx": "Zona Valparaíso",
     "Reporte SAT Los Andes": "Zona Aconcagua",
     "Reporte San Antonio": "Zona San Antonio",
-    // Grupos nuevos pendientes de incorporar (ver claude/estado-proyecto.md):
-    // "Reporte Quillota": "Zona Quillota",
+    "Reporte Quillota": "Zona Quillota",
   };
 
   // Orden fijo de las zonas en pestañas y en el resumen (aunque algunas
